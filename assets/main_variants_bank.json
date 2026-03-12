@@ -1,0 +1,1962 @@
+[
+  {
+    "variant": 1,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите сумму цифр числа 358.",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": 1,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Автомобиль проехал 68 км со скоростью 22 км/ч. Сколько км за это же время проедет велосипедист со скоростью 12 км/ч?",
+        "answer": "37",
+        "imageSvg": null,
+        "sourceId": 2,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Арифметическая прогрессия начинается с 8, разность 6. Найдите сумму первых 8 членов.",
+        "answer": "232",
+        "imageSvg": null,
+        "sourceId": 3,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Сколько раз за 16 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": 4,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "Вычислите: (155 + 110) × 45.",
+        "answer": "11925",
+        "imageSvg": null,
+        "sourceId": 5,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 700.",
+        "answer": "700",
+        "imageSvg": null,
+        "sourceId": 6,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 4★6.",
+        "answer": "34",
+        "imageSvg": null,
+        "sourceId": 7,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 800.",
+        "answer": "800",
+        "imageSvg": null,
+        "sourceId": 8,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите сумму цифр числа 462.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": 9,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Первый мастер выполняет работу за 8 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 10,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Вычислите: (197 + 140) × 51.",
+        "answer": "17187",
+        "imageSvg": null,
+        "sourceId": 11,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 3★6.",
+        "answer": "27",
+        "imageSvg": null,
+        "sourceId": 12,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "Найдите НОД чисел 162 и 178.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 13,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Вычислите: (218 + 155) × 54.",
+        "answer": "20142",
+        "imageSvg": null,
+        "sourceId": 14,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 1150.",
+        "answer": "1150",
+        "imageSvg": null,
+        "sourceId": 15,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "Арифметическая прогрессия начинается с 21, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "252",
+        "imageSvg": null,
+        "sourceId": 16,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Арифметическая прогрессия начинается с 22, разность 4. Найдите сумму первых 8 членов.",
+        "answer": "288",
+        "imageSvg": null,
+        "sourceId": 17,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 1300.",
+        "answer": "1300",
+        "imageSvg": null,
+        "sourceId": 18,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "Найдите НОД чисел 198 и 202.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 19,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 1400.",
+        "answer": "1400",
+        "imageSvg": null,
+        "sourceId": 20,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 6★5.",
+        "answer": "41",
+        "imageSvg": null,
+        "sourceId": 21,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Арифметическая прогрессия начинается с 27, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "356",
+        "imageSvg": null,
+        "sourceId": 22,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Вычислите: (281 + 200) × 63.",
+        "answer": "30303",
+        "imageSvg": null,
+        "sourceId": 23,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 24,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 1650.",
+        "answer": "1650",
+        "imageSvg": null,
+        "sourceId": 25,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Найдите НОД чисел 240 и 230.",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": 26,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Сколько раз за 39 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "39",
+        "imageSvg": null,
+        "sourceId": 27,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколько раз за 40 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "40",
+        "imageSvg": null,
+        "sourceId": 28,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Первый мастер выполняет работу за 7 часов, второй — за 6. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 29,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Вычислите: (330 + 235) × 70.",
+        "answer": "39550",
+        "imageSvg": null,
+        "sourceId": 30,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": 2,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Первый мастер выполняет работу за 8 часов, второй — за 6. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 31,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 32,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Арифметическая прогрессия начинается с 11, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "228",
+        "imageSvg": null,
+        "sourceId": 33,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Вычислите: (176 + 125) × 48.",
+        "answer": "14448",
+        "imageSvg": null,
+        "sourceId": 34,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите НОД чисел 144 и 166.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 35,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Вычислите: (204 + 145) × 52.",
+        "answer": "18148",
+        "imageSvg": null,
+        "sourceId": 36,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 5★8.",
+        "answer": "53",
+        "imageSvg": null,
+        "sourceId": 37,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Автомобиль проехал 124 км со скоростью 36 км/ч. Сколько км за это же время проедет велосипедист со скоростью 26 км/ч?",
+        "answer": "89",
+        "imageSvg": null,
+        "sourceId": 38,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите НОК чисел 30 и 36.",
+        "answer": "180",
+        "imageSvg": null,
+        "sourceId": 39,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Арифметическая прогрессия начинается с 25, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "284",
+        "imageSvg": null,
+        "sourceId": 40,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Автомобиль проехал 148 км со скоростью 42 км/ч. Сколько км за это же время проедет велосипедист со скоростью 32 км/ч?",
+        "answer": "112",
+        "imageSvg": null,
+        "sourceId": 41,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 3★8.",
+        "answer": "35",
+        "imageSvg": null,
+        "sourceId": 42,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 1700.",
+        "answer": "1700",
+        "imageSvg": null,
+        "sourceId": 43,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 44,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "Найдите НОК чисел 42 и 48.",
+        "answer": "336",
+        "imageSvg": null,
+        "sourceId": 45,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 5★6.",
+        "answer": "41",
+        "imageSvg": null,
+        "sourceId": 46,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Сколько раз за 46 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "46",
+        "imageSvg": null,
+        "sourceId": 47,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "Автомобиль проехал 204 км со скоростью 56 км/ч. Сколько км за это же время проедет велосипедист со скоростью 46 км/ч?",
+        "answer": "167",
+        "imageSvg": null,
+        "sourceId": 48,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 2300.",
+        "answer": "2300",
+        "imageSvg": null,
+        "sourceId": 49,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 50,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "Первый мастер выполняет работу за 8 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 51,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Сколько раз за 56 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "56",
+        "imageSvg": null,
+        "sourceId": 52,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Найдите НОД чисел 360 и 310.",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": 53,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Найдите сумму цифр числа 969.",
+        "answer": "24",
+        "imageSvg": null,
+        "sourceId": 54,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 2900.",
+        "answer": "2900",
+        "imageSvg": null,
+        "sourceId": 55,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 7★6.",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": 56,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Среди 27 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 57,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 3200.",
+        "answer": "3200",
+        "imageSvg": null,
+        "sourceId": 58,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Первый мастер выполняет работу за 8 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 59,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Вычислите: (540 + 385) × 100.",
+        "answer": "92500",
+        "imageSvg": null,
+        "sourceId": 60,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": 3,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Первый мастер выполняет работу за 9 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 61,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите НОД чисел 120 и 150.",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 62,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 63,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Сколько раз за 24 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "24",
+        "imageSvg": null,
+        "sourceId": 64,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 6★4.",
+        "answer": "34",
+        "imageSvg": null,
+        "sourceId": 65,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Арифметическая прогрессия начинается с 23, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "324",
+        "imageSvg": null,
+        "sourceId": 66,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "У прямоугольника стороны 31 и 7. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "133",
+        "imageSvg": null,
+        "sourceId": 67,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Найдите сумму цифр числа 657.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": 68,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 69,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Первый мастер выполняет работу за 8 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 70,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 71,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите сумму цифр числа 813.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": 72,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "Найдите НОК чисел 51 и 57.",
+        "answer": "969",
+        "imageSvg": null,
+        "sourceId": 73,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите НОД чисел 336 и 294.",
+        "answer": "42",
+        "imageSvg": null,
+        "sourceId": 74,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "У прямоугольника стороны 55 и 6. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "201",
+        "imageSvg": null,
+        "sourceId": 75,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "Автомобиль проехал 252 км со скоростью 68 км/ч. Сколько км за это же время проедет велосипедист со скоростью 58 км/ч?",
+        "answer": "214",
+        "imageSvg": null,
+        "sourceId": 76,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Среди 27 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 77,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "У прямоугольника стороны 64 и 10. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "244",
+        "imageSvg": null,
+        "sourceId": 78,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "Найдите НОД чисел 426 и 354.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": 79,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 3400.",
+        "answer": "3400",
+        "imageSvg": null,
+        "sourceId": 80,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "Первый мастер выполняет работу за 9 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 81,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Найдите НОК чисел 78 и 84.",
+        "answer": "1092",
+        "imageSvg": null,
+        "sourceId": 82,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 6★8.",
+        "answer": "62",
+        "imageSvg": null,
+        "sourceId": 83,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 84,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Найдите сумму цифр числа 1320.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": 85,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Среди 27 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 86,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 87,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Найдите НОК чисел 96 и 102.",
+        "answer": "1632",
+        "imageSvg": null,
+        "sourceId": 88,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Первый мастер выполняет работу за 9 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 89,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 4900.",
+        "answer": "4900",
+        "imageSvg": null,
+        "sourceId": 90,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": 4,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 600.",
+        "answer": "600",
+        "imageSvg": null,
+        "sourceId": 91,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 5★7.",
+        "answer": "47",
+        "imageSvg": null,
+        "sourceId": 92,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Арифметическая прогрессия начинается с 17, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "220",
+        "imageSvg": null,
+        "sourceId": 93,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Автомобиль проехал 124 км со скоростью 36 км/ч. Сколько км за это же время проедет велосипедист со скоростью 26 км/ч?",
+        "answer": "89",
+        "imageSvg": null,
+        "sourceId": 94,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "У прямоугольника стороны 30 и 6. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "126",
+        "imageSvg": null,
+        "sourceId": 95,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Найдите сумму цифр числа 657.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": 96,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "Автомобиль проехал 172 км со скоростью 48 км/ч. Сколько км за это же время проедет велосипедист со скоростью 38 км/ч?",
+        "answer": "136",
+        "imageSvg": null,
+        "sourceId": 97,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Сколько квадратов можно найти на сетке 6×6?",
+        "answer": "91",
+        "imageSvg": null,
+        "sourceId": 98,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Арифметическая прогрессия начинается с 41, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "412",
+        "imageSvg": null,
+        "sourceId": 99,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Вычислите: (400 + 285) × 80.",
+        "answer": "54800",
+        "imageSvg": null,
+        "sourceId": 100,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Сколько раз за 56 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "56",
+        "imageSvg": null,
+        "sourceId": 101,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 2800.",
+        "answer": "2800",
+        "imageSvg": null,
+        "sourceId": 102,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "У прямоугольника стороны 62 и 8. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "230",
+        "imageSvg": null,
+        "sourceId": 103,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 5★5.",
+        "answer": "35",
+        "imageSvg": null,
+        "sourceId": 104,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 105,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "У прямоугольника стороны 74 и 10. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "274",
+        "imageSvg": null,
+        "sourceId": 106,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Найдите сумму цифр числа 1229.",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": 107,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "Найдите сумму цифр числа 1281.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": 108,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "Среди 81 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": 109,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Найдите сумму цифр числа 1385.",
+        "answer": "17",
+        "imageSvg": null,
+        "sourceId": 110,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 111,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Сколько квадратов можно найти на сетке 5×5?",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": 112,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 6. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 113,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "У прямоугольника стороны 106 и 7. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "358",
+        "imageSvg": null,
+        "sourceId": 114,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Сколько квадратов можно найти на сетке 5×5?",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": 115,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 5600.",
+        "answer": "5600",
+        "imageSvg": null,
+        "sourceId": 116,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 5800.",
+        "answer": "5800",
+        "imageSvg": null,
+        "sourceId": 117,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Найдите НОК чисел 124 и 130.",
+        "answer": "8060",
+        "imageSvg": null,
+        "sourceId": 118,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Сколько квадратов можно найти на сетке 6×6?",
+        "answer": "91",
+        "imageSvg": null,
+        "sourceId": 119,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Среди 27 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 120,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": 5,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Сколько раз за 17 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "17",
+        "imageSvg": null,
+        "sourceId": 121,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 900.",
+        "answer": "900",
+        "imageSvg": null,
+        "sourceId": 122,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Вычислите: (225 + 160) × 55.",
+        "answer": "21175",
+        "imageSvg": null,
+        "sourceId": 123,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Среди 243 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": 124,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "Среди 81 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": 125,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Найдите НОК чисел 42 и 48.",
+        "answer": "336",
+        "imageSvg": null,
+        "sourceId": 126,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "Сколько раз за 47 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "47",
+        "imageSvg": null,
+        "sourceId": 127,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 128,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Сколько раз за 57 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "57",
+        "imageSvg": null,
+        "sourceId": 129,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Сколько квадратов можно найти на сетке 6×6?",
+        "answer": "91",
+        "imageSvg": null,
+        "sourceId": 130,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОК чисел 67 и 73.",
+        "answer": "4891",
+        "imageSvg": null,
+        "sourceId": 131,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Среди 27 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 132,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "Арифметическая прогрессия начинается с 70, разность 4. Найдите сумму первых 8 членов.",
+        "answer": "672",
+        "imageSvg": null,
+        "sourceId": 133,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Сколько раз за 82 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "82",
+        "imageSvg": null,
+        "sourceId": 134,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "Найдите сумму цифр числа 1320.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": 135,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "Вычислите: (680 + 485) × 120.",
+        "answer": "139800",
+        "imageSvg": null,
+        "sourceId": 136,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Сколько квадратов можно найти на сетке 5×5?",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": 137,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "Найдите сумму цифр числа 1515.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": 138,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "Автомобиль проехал 440 км со скоростью 115 км/ч. Сколько км за это же время проедет велосипедист со скоростью 105 км/ч?",
+        "answer": "401",
+        "imageSvg": null,
+        "sourceId": 139,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 140,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 5650.",
+        "answer": "5650",
+        "imageSvg": null,
+        "sourceId": 141,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Сколько квадратов можно найти на сетке 6×6?",
+        "answer": "91",
+        "imageSvg": null,
+        "sourceId": 142,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Вычислите: (925 + 660) × 155.",
+        "answer": "245675",
+        "imageSvg": null,
+        "sourceId": 143,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Найдите НОД чисел 804 и 606.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": 144,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "У прямоугольника стороны 135 и 6. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "441",
+        "imageSvg": null,
+        "sourceId": 145,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Найдите НОК чисел 142 и 148.",
+        "answer": "10508",
+        "imageSvg": null,
+        "sourceId": 146,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Автомобиль проехал 600 км со скоростью 155 км/ч. Сколько км за это же время проедет велосипедист со скоростью 145 км/ч?",
+        "answer": "561",
+        "imageSvg": null,
+        "sourceId": 147,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Среди 243 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": 148,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Найдите НОД чисел 954 и 706.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 149,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Арифметическая прогрессия начинается с 155, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "1380",
+        "imageSvg": null,
+        "sourceId": 150,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": 6,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Арифметическая прогрессия начинается с 11, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "228",
+        "imageSvg": null,
+        "sourceId": 151,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 152,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 1300.",
+        "answer": "1300",
+        "imageSvg": null,
+        "sourceId": 153,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Автомобиль проехал 156 км со скоростью 44 км/ч. Сколько км за это же время проедет велосипедист со скоростью 34 км/ч?",
+        "answer": "120",
+        "imageSvg": null,
+        "sourceId": 154,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 155,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Арифметическая прогрессия начинается с 41, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "412",
+        "imageSvg": null,
+        "sourceId": 156,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 3★6.",
+        "answer": "27",
+        "imageSvg": null,
+        "sourceId": 157,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Найдите НОК чисел 60 и 66.",
+        "answer": "660",
+        "imageSvg": null,
+        "sourceId": 158,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Автомобиль проехал 276 км со скоростью 74 км/ч. Сколько км за это же время проедет велосипедист со скоростью 64 км/ч?",
+        "answer": "238",
+        "imageSvg": null,
+        "sourceId": 159,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Арифметическая прогрессия начинается с 65, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "604",
+        "imageSvg": null,
+        "sourceId": 160,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 3★5.",
+        "answer": "23",
+        "imageSvg": null,
+        "sourceId": 161,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 84 и 90.",
+        "answer": "1260",
+        "imageSvg": null,
+        "sourceId": 162,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "Среди 27 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 163,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Арифметическая прогрессия начинается с 89, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "796",
+        "imageSvg": null,
+        "sourceId": 164,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "Найдите сумму цифр числа 1515.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": 165,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "Сколько раз за 108 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "108",
+        "imageSvg": null,
+        "sourceId": 166,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Арифметическая прогрессия начинается с 107, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "996",
+        "imageSvg": null,
+        "sourceId": 167,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "Найдите НОД чисел 732 и 558.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": 168,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "Автомобиль проехал 516 км со скоростью 134 км/ч. Сколько км за это же время проедет велосипедист со скоростью 124 км/ч?",
+        "answer": "477",
+        "imageSvg": null,
+        "sourceId": 169,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 6400.",
+        "answer": "6400",
+        "imageSvg": null,
+        "sourceId": 170,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "Автомобиль проехал 564 км со скоростью 146 км/ч. Сколько км за это же время проедет велосипедист со скоростью 136 км/ч?",
+        "answer": "525",
+        "imageSvg": null,
+        "sourceId": 171,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Автомобиль проехал 588 км со скоростью 152 км/ч. Сколько км за это же время проедет велосипедист со скоростью 142 км/ч?",
+        "answer": "549",
+        "imageSvg": null,
+        "sourceId": 172,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Найдите НОД чисел 912 и 678.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": 173,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Сколько раз за 156 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "156",
+        "imageSvg": null,
+        "sourceId": 174,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Найдите НОД чисел 984 и 726.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": 175,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Вычислите: (1212 + 865) × 196.",
+        "answer": "407092",
+        "imageSvg": null,
+        "sourceId": 176,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 177,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 178,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Автомобиль проехал 756 км со скоростью 194 км/ч. Сколько км за это же время проедет велосипедист со скоростью 184 км/ч?",
+        "answer": "717",
+        "imageSvg": null,
+        "sourceId": 179,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Найдите НОК чисел 192 и 198.",
+        "answer": "6336",
+        "imageSvg": null,
+        "sourceId": 180,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": 7,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите НОК чисел 19 и 25.",
+        "answer": "475",
+        "imageSvg": null,
+        "sourceId": 181,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Вычислите: (218 + 155) × 54.",
+        "answer": "20142",
+        "imageSvg": null,
+        "sourceId": 182,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Автомобиль проехал 144 км со скоростью 41 км/ч. Сколько км за это же время проедет велосипедист со скоростью 31 км/ч?",
+        "answer": "108",
+        "imageSvg": null,
+        "sourceId": 183,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Арифметическая прогрессия начинается с 33, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "348",
+        "imageSvg": null,
+        "sourceId": 184,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 8★4.",
+        "answer": "44",
+        "imageSvg": null,
+        "sourceId": 185,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Найдите сумму цифр числа 891.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": 186,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "Первый мастер выполняет работу за 7 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 187,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 6. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 188,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите сумму цифр числа 1164.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": 189,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Автомобиль проехал 340 км со скоростью 90 км/ч. Сколько км за это же время проедет велосипедист со скоростью 80 км/ч?",
+        "answer": "302",
+        "imageSvg": null,
+        "sourceId": 190,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Среди 243 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": 191,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 3★8.",
+        "answer": "35",
+        "imageSvg": null,
+        "sourceId": 192,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "Первый мастер выполняет работу за 9 часов, второй — за 5. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 193,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Сколько раз за 110 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "110",
+        "imageSvg": null,
+        "sourceId": 194,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "Сколько раз за 117 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "117",
+        "imageSvg": null,
+        "sourceId": 195,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "Среди 81 монет одна фальшивая (легче). Сколько минимум взвешиваний нужно, чтобы её найти?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": 196,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Вычислите: (953 + 680) × 159.",
+        "answer": "259647",
+        "imageSvg": null,
+        "sourceId": 197,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 198,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "У прямоугольника стороны 143 и 9. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "477",
+        "imageSvg": null,
+        "sourceId": 199,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Сколько раз за 152 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "152",
+        "imageSvg": null,
+        "sourceId": 200,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "У прямоугольника стороны 157 и 8. Если увеличить длину на 4 и ширину на 3, на сколько увеличится площадь?",
+        "answer": "515",
+        "imageSvg": null,
+        "sourceId": 201,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 7★8.",
+        "answer": "71",
+        "imageSvg": null,
+        "sourceId": 202,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Арифметическая прогрессия начинается с 166, разность 4. Найдите сумму первых 8 членов.",
+        "answer": "1440",
+        "imageSvg": null,
+        "sourceId": 203,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Арифметическая прогрессия начинается с 173, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "1468",
+        "imageSvg": null,
+        "sourceId": 204,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Арифметическая прогрессия начинается с 180, разность 6. Найдите сумму первых 8 членов.",
+        "answer": "1608",
+        "imageSvg": null,
+        "sourceId": 205,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Арифметическая прогрессия начинается с 187, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "1636",
+        "imageSvg": null,
+        "sourceId": 206,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 9850.",
+        "answer": "9850",
+        "imageSvg": null,
+        "sourceId": 207,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколько квадратов можно найти на сетке 5×5?",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": 208,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Сколько раз за 215 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "215",
+        "imageSvg": null,
+        "sourceId": 209,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Арифметическая прогрессия начинается с 215, разность 5. Найдите сумму первых 8 членов.",
+        "answer": "1860",
+        "imageSvg": null,
+        "sourceId": 210,
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": 8,
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Вычислите: (176 + 125) × 48.",
+        "answer": "14448",
+        "imageSvg": null,
+        "sourceId": 211,
+        "difficulty": "hard"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите НОД чисел 180 и 190.",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": 212,
+        "difficulty": "hard"
+      },
+      {
+        "q": 3,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 1600.",
+        "answer": "1600",
+        "imageSvg": null,
+        "sourceId": 213,
+        "difficulty": "hard"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите НОД чисел 276 и 254.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 214,
+        "difficulty": "hard"
+      },
+      {
+        "q": 5,
+        "prompt": "Сколько квадратов можно найти на сетке 5×5?",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": 215,
+        "difficulty": "hard"
+      },
+      {
+        "q": 6,
+        "prompt": "Автомобиль проехал 252 км со скоростью 68 км/ч. Сколько км за это же время проедет велосипедист со скоростью 58 км/ч?",
+        "answer": "214",
+        "imageSvg": null,
+        "sourceId": 216,
+        "difficulty": "hard"
+      },
+      {
+        "q": 7,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 3200.",
+        "answer": "3200",
+        "imageSvg": null,
+        "sourceId": 217,
+        "difficulty": "hard"
+      },
+      {
+        "q": 8,
+        "prompt": "Найдите сумму цифр числа 1177.",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": 218,
+        "difficulty": "hard"
+      },
+      {
+        "q": 9,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 219,
+        "difficulty": "hard"
+      },
+      {
+        "q": 10,
+        "prompt": "Вычислите: (680 + 485) × 120.",
+        "answer": "139800",
+        "imageSvg": null,
+        "sourceId": 220,
+        "difficulty": "hard"
+      },
+      {
+        "q": 11,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 4800.",
+        "answer": "4800",
+        "imageSvg": null,
+        "sourceId": 221,
+        "difficulty": "hard"
+      },
+      {
+        "q": 12,
+        "prompt": "Вычислите: (792 + 565) × 136.",
+        "answer": "184552",
+        "imageSvg": null,
+        "sourceId": 222,
+        "difficulty": "hard"
+      },
+      {
+        "q": 13,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 6. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 223,
+        "difficulty": "hard"
+      },
+      {
+        "q": 14,
+        "prompt": "Автомобиль проехал 508 км со скоростью 132 км/ч. Сколько км за это же время проедет велосипедист со скоростью 122 км/ч?",
+        "answer": "469",
+        "imageSvg": null,
+        "sourceId": 224,
+        "difficulty": "hard"
+      },
+      {
+        "q": 15,
+        "prompt": "Операция определена: a★b = ab + a + b. Найдите 3★4.",
+        "answer": "19",
+        "imageSvg": null,
+        "sourceId": 225,
+        "difficulty": "hard"
+      },
+      {
+        "q": 16,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 6800.",
+        "answer": "6800",
+        "imageSvg": null,
+        "sourceId": 226,
+        "difficulty": "hard"
+      },
+      {
+        "q": 17,
+        "prompt": "Найдите сумму цифр числа 2113.",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": 227,
+        "difficulty": "hard"
+      },
+      {
+        "q": 18,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 4. За сколько часов они выполнят работу вместе?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": 228,
+        "difficulty": "hard"
+      },
+      {
+        "q": 19,
+        "prompt": "Вычислите: (1184 + 845) × 192.",
+        "answer": "389568",
+        "imageSvg": null,
+        "sourceId": 229,
+        "difficulty": "hard"
+      },
+      {
+        "q": 20,
+        "prompt": "Число увеличили на 25%, а затем уменьшили на 20%. Найдите результат, если исходное число равно 8400.",
+        "answer": "8400",
+        "imageSvg": null,
+        "sourceId": 230,
+        "difficulty": "hard"
+      },
+      {
+        "q": 21,
+        "prompt": "Найдите НОД чисел 1092 и 798.",
+        "answer": "42",
+        "imageSvg": null,
+        "sourceId": 231,
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 6. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 232,
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Арифметическая прогрессия начинается с 189, разность 3. Найдите сумму первых 8 членов.",
+        "answer": "1596",
+        "imageSvg": null,
+        "sourceId": 233,
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Автомобиль проехал 828 км со скоростью 212 км/ч. Сколько км за это же время проедет велосипедист со скоростью 202 км/ч?",
+        "answer": "788",
+        "imageSvg": null,
+        "sourceId": 234,
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Сколько раз за 212 часов совпадут часовая и минутная стрелки (не считая начального совпадения)?",
+        "answer": "212",
+        "imageSvg": null,
+        "sourceId": 235,
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Найдите НОК чисел 220 и 226.",
+        "answer": "24860",
+        "imageSvg": null,
+        "sourceId": 236,
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Найдите сумму цифр числа 3153.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": 237,
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Первый мастер выполняет работу за 6 часов, второй — за 6. За сколько часов они выполнят работу вместе?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": 238,
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Найдите сумму цифр числа 3361.",
+        "answer": "13",
+        "imageSvg": null,
+        "sourceId": 239,
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "Сколько квадратов можно найти на сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": 240,
+        "difficulty": "hard"
+      }
+    ]
+  }
+]

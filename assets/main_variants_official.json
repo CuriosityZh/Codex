@@ -1,0 +1,3432 @@
+[
+  {
+    "variant": "official-1",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 21 + 29.",
+        "answer": "50",
+        "imageSvg": null,
+        "sourceId": "official-1",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 134 − 26.",
+        "answer": "108",
+        "imageSvg": null,
+        "sourceId": "official-2",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 8 · 10.",
+        "answer": "80",
+        "imageSvg": null,
+        "sourceId": "official-3",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 4 см и 6 см.",
+        "answer": "24",
+        "imageSvg": null,
+        "sourceId": "official-4",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 20% от числа 90.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-5",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 7 км/ч в течение 4 часов. Какое расстояние она проехала?",
+        "answer": "28",
+        "imageSvg": null,
+        "sourceId": "official-6",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 145 задач. В первый день он решил 32, во второй — 21. Сколько задач ему осталось решить?",
+        "answer": "92",
+        "imageSvg": null,
+        "sourceId": "official-7",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(12) и B(24). Найдите координату середины отрезка AB.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-8",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 5, и на 9.",
+        "answer": "45",
+        "imageSvg": null,
+        "sourceId": "official-9",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 3x + 6 = 18.",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-10",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 20 и 33.",
+        "answer": "1",
+        "imageSvg": null,
+        "sourceId": "official-11",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 9 и 14.",
+        "answer": "126",
+        "imageSvg": null,
+        "sourceId": "official-12",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 24?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-13",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 271.",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-14",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 13 кругов, а каждый следующий день он пробегал на 4 круга больше. Сколько кругов он пробежал за 8 дней?",
+        "answer": "216",
+        "imageSvg": null,
+        "sourceId": "official-15",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "5 рабочих выполняют работу за 9 дней. За сколько дней выполнят ту же работу 15 рабочих, если все работают одинаково?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-16",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 3x − 6 = 15.",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": "official-17",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 3×3?",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-18",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(6), B(4) и C(12). Найдите сумму расстояний CA и CB.",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-19",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 3 ⊙ 4.",
+        "answer": "19",
+        "imageSvg": null,
+        "sourceId": "official-20",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(5·6). Если полученную сумму умножить на 6, какое число получится?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-21",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 14x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "48",
+        "imageSvg": null,
+        "sourceId": "official-22",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 12 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-23",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 4 равных частей и одновременно на 5 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-24",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 81 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-25",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-26",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 113 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "198",
+        "imageSvg": null,
+        "sourceId": "official-27",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 39 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-28",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 121 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-29",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 9 см, ширина — 6 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "42",
+        "imageSvg": null,
+        "sourceId": "official-30",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-2",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 24 + 31.",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": "official-31",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 138 − 27.",
+        "answer": "111",
+        "imageSvg": null,
+        "sourceId": "official-32",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 9 · 12.",
+        "answer": "108",
+        "imageSvg": null,
+        "sourceId": "official-33",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 5 см и 7 см.",
+        "answer": "35",
+        "imageSvg": null,
+        "sourceId": "official-34",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 25% от числа 100.",
+        "answer": "25",
+        "imageSvg": null,
+        "sourceId": "official-35",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 8 км/ч в течение 5 часов. Какое расстояние она проехала?",
+        "answer": "40",
+        "imageSvg": null,
+        "sourceId": "official-36",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 150 задач. В первый день он решил 34, во второй — 22. Сколько задач ему осталось решить?",
+        "answer": "94",
+        "imageSvg": null,
+        "sourceId": "official-37",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(14) и B(28). Найдите координату середины отрезка AB.",
+        "answer": "21",
+        "imageSvg": null,
+        "sourceId": "official-38",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 6, и на 10.",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-39",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 4x + 7 = 27.",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-40",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 22 и 36.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-41",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 10 и 16.",
+        "answer": "80",
+        "imageSvg": null,
+        "sourceId": "official-42",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 30?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-43",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 308.",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-44",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 14 кругов, а каждый следующий день он пробегал на 5 круга больше. Сколько кругов он пробежал за 9 дней?",
+        "answer": "306",
+        "imageSvg": null,
+        "sourceId": "official-45",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "6 рабочих выполняют работу за 16 дней. За сколько дней выполнят ту же работу 24 рабочих, если все работают одинаково?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-46",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 4x − 7 = 25.",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-47",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-48",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(7), B(5) и C(15). Найдите сумму расстояний CA и CB.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-49",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 4 ⊙ 5.",
+        "answer": "29",
+        "imageSvg": null,
+        "sourceId": "official-50",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(6·7). Если полученную сумму умножить на 7, какое число получится?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-51",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 16x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "63",
+        "imageSvg": null,
+        "sourceId": "official-52",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 14 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-53",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 5 равных частей и одновременно на 6 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-54",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 243 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-55",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-56",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 124 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "288",
+        "imageSvg": null,
+        "sourceId": "official-57",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 42 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-58",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 169 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "13",
+        "imageSvg": null,
+        "sourceId": "official-59",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 10 см, ширина — 7 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "47",
+        "imageSvg": null,
+        "sourceId": "official-60",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-3",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 27 + 33.",
+        "answer": "60",
+        "imageSvg": null,
+        "sourceId": "official-61",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 142 − 28.",
+        "answer": "114",
+        "imageSvg": null,
+        "sourceId": "official-62",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 10 · 9.",
+        "answer": "90",
+        "imageSvg": null,
+        "sourceId": "official-63",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 6 см и 4 см.",
+        "answer": "24",
+        "imageSvg": null,
+        "sourceId": "official-64",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 50% от числа 110.",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": "official-65",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 9 км/ч в течение 6 часов. Какое расстояние она проехала?",
+        "answer": "54",
+        "imageSvg": null,
+        "sourceId": "official-66",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 155 задач. В первый день он решил 36, во второй — 23. Сколько задач ему осталось решить?",
+        "answer": "96",
+        "imageSvg": null,
+        "sourceId": "official-67",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(16) и B(32). Найдите координату середины отрезка AB.",
+        "answer": "24",
+        "imageSvg": null,
+        "sourceId": "official-68",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 7, и на 6.",
+        "answer": "42",
+        "imageSvg": null,
+        "sourceId": "official-69",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 5x + 8 = 38.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-70",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 24 и 39.",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-71",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 11 и 18.",
+        "answer": "198",
+        "imageSvg": null,
+        "sourceId": "official-72",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 36?",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-73",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 345.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-74",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 15 кругов, а каждый следующий день он пробегал на 6 круга больше. Сколько кругов он пробежал за 7 дней?",
+        "answer": "231",
+        "imageSvg": null,
+        "sourceId": "official-75",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "7 рабочих выполняют работу за 10 дней. За сколько дней выполнят ту же работу 14 рабочих, если все работают одинаково?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-76",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 5x − 8 = 37.",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-77",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 2×2?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-78",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(8), B(6) и C(18). Найдите сумму расстояний CA и CB.",
+        "answer": "22",
+        "imageSvg": null,
+        "sourceId": "official-79",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 5 ⊙ 6.",
+        "answer": "41",
+        "imageSvg": null,
+        "sourceId": "official-80",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(7·8). Если полученную сумму умножить на 8, какое число получится?",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": "official-81",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 18x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "80",
+        "imageSvg": null,
+        "sourceId": "official-82",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 16 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": "official-83",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 6 равных частей и одновременно на 7 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-84",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 729 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-85",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 9 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-86",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 135 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "378",
+        "imageSvg": null,
+        "sourceId": "official-87",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 45 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": "official-88",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 289 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "17",
+        "imageSvg": null,
+        "sourceId": "official-89",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 11 см, ширина — 8 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "52",
+        "imageSvg": null,
+        "sourceId": "official-90",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-4",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 30 + 35.",
+        "answer": "65",
+        "imageSvg": null,
+        "sourceId": "official-91",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 146 − 29.",
+        "answer": "117",
+        "imageSvg": null,
+        "sourceId": "official-92",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 11 · 11.",
+        "answer": "121",
+        "imageSvg": null,
+        "sourceId": "official-93",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 7 см и 5 см.",
+        "answer": "35",
+        "imageSvg": null,
+        "sourceId": "official-94",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 10% от числа 120.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-95",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 10 км/ч в течение 7 часов. Какое расстояние она проехала?",
+        "answer": "70",
+        "imageSvg": null,
+        "sourceId": "official-96",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 160 задач. В первый день он решил 38, во второй — 24. Сколько задач ему осталось решить?",
+        "answer": "98",
+        "imageSvg": null,
+        "sourceId": "official-97",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(18) и B(36). Найдите координату середины отрезка AB.",
+        "answer": "27",
+        "imageSvg": null,
+        "sourceId": "official-98",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 8, и на 7.",
+        "answer": "56",
+        "imageSvg": null,
+        "sourceId": "official-99",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 2x + 9 = 23.",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": "official-100",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 26 и 42.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-101",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 12 и 20.",
+        "answer": "60",
+        "imageSvg": null,
+        "sourceId": "official-102",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 40?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-103",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 382.",
+        "answer": "13",
+        "imageSvg": null,
+        "sourceId": "official-104",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 16 кругов, а каждый следующий день он пробегал на 3 круга больше. Сколько кругов он пробежал за 8 дней?",
+        "answer": "212",
+        "imageSvg": null,
+        "sourceId": "official-105",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "4 рабочих выполняют работу за 6 дней. За сколько дней выполнят ту же работу 12 рабочих, если все работают одинаково?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-106",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 6x − 9 = 51.",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-107",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 3×3?",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-108",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(9), B(7) и C(17). Найдите сумму расстояний CA и CB.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-109",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 6 ⊙ 3.",
+        "answer": "27",
+        "imageSvg": null,
+        "sourceId": "official-110",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(8·9). Если полученную сумму умножить на 9, какое число получится?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-111",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 20x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "99",
+        "imageSvg": null,
+        "sourceId": "official-112",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 18 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-113",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 3 равных частей и одновременно на 8 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-114",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 27 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-115",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 4 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-116",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 146 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "468",
+        "imageSvg": null,
+        "sourceId": "official-117",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 48 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": "official-118",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 361 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "19",
+        "imageSvg": null,
+        "sourceId": "official-119",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 12 см, ширина — 9 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "57",
+        "imageSvg": null,
+        "sourceId": "official-120",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-5",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 33 + 37.",
+        "answer": "70",
+        "imageSvg": null,
+        "sourceId": "official-121",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 150 − 30.",
+        "answer": "120",
+        "imageSvg": null,
+        "sourceId": "official-122",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 12 · 8.",
+        "answer": "96",
+        "imageSvg": null,
+        "sourceId": "official-123",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 3 см и 6 см.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-124",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 20% от числа 130.",
+        "answer": "26",
+        "imageSvg": null,
+        "sourceId": "official-125",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 11 км/ч в течение 8 часов. Какое расстояние она проехала?",
+        "answer": "88",
+        "imageSvg": null,
+        "sourceId": "official-126",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 165 задач. В первый день он решил 40, во второй — 25. Сколько задач ему осталось решить?",
+        "answer": "100",
+        "imageSvg": null,
+        "sourceId": "official-127",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(20) и B(40). Найдите координату середины отрезка AB.",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-128",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 9, и на 8.",
+        "answer": "72",
+        "imageSvg": null,
+        "sourceId": "official-129",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 3x + 10 = 34.",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-130",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 28 и 45.",
+        "answer": "1",
+        "imageSvg": null,
+        "sourceId": "official-131",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 13 и 22.",
+        "answer": "286",
+        "imageSvg": null,
+        "sourceId": "official-132",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 42?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-133",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 419.",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-134",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 17 кругов, а каждый следующий день он пробегал на 4 круга больше. Сколько кругов он пробежал за 9 дней?",
+        "answer": "297",
+        "imageSvg": null,
+        "sourceId": "official-135",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "5 рабочих выполняют работу за 12 дней. За сколько дней выполнят ту же работу 20 рабочих, если все работают одинаково?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-136",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 2x − 10 = 12.",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-137",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-138",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(10), B(3) и C(15). Найдите сумму расстояний CA и CB.",
+        "answer": "17",
+        "imageSvg": null,
+        "sourceId": "official-139",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 2 ⊙ 4.",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-140",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(9·10). Если полученную сумму умножить на 10, какое число получится?",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-141",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 22x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "120",
+        "imageSvg": null,
+        "sourceId": "official-142",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 20 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "20",
+        "imageSvg": null,
+        "sourceId": "official-143",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 4 равных частей и одновременно на 4 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-144",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 81 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-145",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-146",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 152 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "63",
+        "imageSvg": null,
+        "sourceId": "official-147",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 51 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-148",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 529 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "23",
+        "imageSvg": null,
+        "sourceId": "official-149",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 13 см, ширина — 5 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "47",
+        "imageSvg": null,
+        "sourceId": "official-150",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-6",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 36 + 39.",
+        "answer": "75",
+        "imageSvg": null,
+        "sourceId": "official-151",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 154 − 31.",
+        "answer": "123",
+        "imageSvg": null,
+        "sourceId": "official-152",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 7 · 10.",
+        "answer": "70",
+        "imageSvg": null,
+        "sourceId": "official-153",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 4 см и 7 см.",
+        "answer": "28",
+        "imageSvg": null,
+        "sourceId": "official-154",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 25% от числа 140.",
+        "answer": "35",
+        "imageSvg": null,
+        "sourceId": "official-155",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 12 км/ч в течение 3 часов. Какое расстояние она проехала?",
+        "answer": "36",
+        "imageSvg": null,
+        "sourceId": "official-156",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 170 задач. В первый день он решил 42, во второй — 26. Сколько задач ему осталось решить?",
+        "answer": "102",
+        "imageSvg": null,
+        "sourceId": "official-157",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(22) и B(44). Найдите координату середины отрезка AB.",
+        "answer": "33",
+        "imageSvg": null,
+        "sourceId": "official-158",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 10, и на 9.",
+        "answer": "90",
+        "imageSvg": null,
+        "sourceId": "official-159",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 4x + 5 = 41.",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-160",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 30 и 48.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-161",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 14 и 24.",
+        "answer": "168",
+        "imageSvg": null,
+        "sourceId": "official-162",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 45?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-163",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 456.",
+        "answer": "15",
+        "imageSvg": null,
+        "sourceId": "official-164",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 18 кругов, а каждый следующий день он пробегал на 5 круга больше. Сколько кругов он пробежал за 7 дней?",
+        "answer": "231",
+        "imageSvg": null,
+        "sourceId": "official-165",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "6 рабочих выполняют работу за 8 дней. За сколько дней выполнят ту же работу 12 рабочих, если все работают одинаково?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-166",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 3x − 11 = 25.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-167",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 2×2?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-168",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(5), B(4) и C(12). Найдите сумму расстояний CA и CB.",
+        "answer": "15",
+        "imageSvg": null,
+        "sourceId": "official-169",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 3 ⊙ 5.",
+        "answer": "23",
+        "imageSvg": null,
+        "sourceId": "official-170",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(10·11). Если полученную сумму умножить на 11, какое число получится?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-171",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 24x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "143",
+        "imageSvg": null,
+        "sourceId": "official-172",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 22 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "22",
+        "imageSvg": null,
+        "sourceId": "official-173",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 5 равных частей и одновременно на 5 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-174",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 243 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-175",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-176",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 163 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "153",
+        "imageSvg": null,
+        "sourceId": "official-177",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 54 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-178",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 841 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "29",
+        "imageSvg": null,
+        "sourceId": "official-179",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 8 см, ширина — 6 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "40",
+        "imageSvg": null,
+        "sourceId": "official-180",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-7",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 39 + 41.",
+        "answer": "80",
+        "imageSvg": null,
+        "sourceId": "official-181",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 158 − 32.",
+        "answer": "126",
+        "imageSvg": null,
+        "sourceId": "official-182",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 8 · 12.",
+        "answer": "96",
+        "imageSvg": null,
+        "sourceId": "official-183",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 5 см и 4 см.",
+        "answer": "20",
+        "imageSvg": null,
+        "sourceId": "official-184",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 50% от числа 150.",
+        "answer": "75",
+        "imageSvg": null,
+        "sourceId": "official-185",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 6 км/ч в течение 4 часов. Какое расстояние она проехала?",
+        "answer": "24",
+        "imageSvg": null,
+        "sourceId": "official-186",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 175 задач. В первый день он решил 44, во второй — 27. Сколько задач ему осталось решить?",
+        "answer": "104",
+        "imageSvg": null,
+        "sourceId": "official-187",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(24) и B(48). Найдите координату середины отрезка AB.",
+        "answer": "36",
+        "imageSvg": null,
+        "sourceId": "official-188",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 4, и на 10.",
+        "answer": "20",
+        "imageSvg": null,
+        "sourceId": "official-189",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 5x + 6 = 56.",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-190",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 32 и 51.",
+        "answer": "1",
+        "imageSvg": null,
+        "sourceId": "official-191",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 15 и 26.",
+        "answer": "390",
+        "imageSvg": null,
+        "sourceId": "official-192",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 48?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-193",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 493.",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": "official-194",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 19 кругов, а каждый следующий день он пробегал на 6 круга больше. Сколько кругов он пробежал за 8 дней?",
+        "answer": "320",
+        "imageSvg": null,
+        "sourceId": "official-195",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "7 рабочих выполняют работу за 15 дней. За сколько дней выполнят ту же работу 21 рабочих, если все работают одинаково?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-196",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 4x − 5 = 47.",
+        "answer": "13",
+        "imageSvg": null,
+        "sourceId": "official-197",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 3×3?",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-198",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(6), B(5) и C(15). Найдите сумму расстояний CA и CB.",
+        "answer": "19",
+        "imageSvg": null,
+        "sourceId": "official-199",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 4 ⊙ 6.",
+        "answer": "34",
+        "imageSvg": null,
+        "sourceId": "official-200",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(11·12). Если полученную сумму умножить на 12, какое число получится?",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-201",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 26x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "168",
+        "imageSvg": null,
+        "sourceId": "official-202",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 24 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "24",
+        "imageSvg": null,
+        "sourceId": "official-203",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 6 равных частей и одновременно на 6 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-204",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 729 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-205",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-206",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 174 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "243",
+        "imageSvg": null,
+        "sourceId": "official-207",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 57 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-208",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 961 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "31",
+        "imageSvg": null,
+        "sourceId": "official-209",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 9 см, ширина — 7 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "45",
+        "imageSvg": null,
+        "sourceId": "official-210",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-8",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 42 + 43.",
+        "answer": "85",
+        "imageSvg": null,
+        "sourceId": "official-211",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 162 − 33.",
+        "answer": "129",
+        "imageSvg": null,
+        "sourceId": "official-212",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 9 · 9.",
+        "answer": "81",
+        "imageSvg": null,
+        "sourceId": "official-213",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 6 см и 5 см.",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-214",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 10% от числа 160.",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": "official-215",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 7 км/ч в течение 5 часов. Какое расстояние она проехала?",
+        "answer": "35",
+        "imageSvg": null,
+        "sourceId": "official-216",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 180 задач. В первый день он решил 46, во второй — 28. Сколько задач ему осталось решить?",
+        "answer": "106",
+        "imageSvg": null,
+        "sourceId": "official-217",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(26) и B(36). Найдите координату середины отрезка AB.",
+        "answer": "31",
+        "imageSvg": null,
+        "sourceId": "official-218",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 5, и на 6.",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-219",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 2x + 7 = 29.",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-220",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 34 и 54.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-221",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 16 и 28.",
+        "answer": "112",
+        "imageSvg": null,
+        "sourceId": "official-222",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 54?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-223",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 530.",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-224",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 20 кругов, а каждый следующий день он пробегал на 3 круга больше. Сколько кругов он пробежал за 9 дней?",
+        "answer": "288",
+        "imageSvg": null,
+        "sourceId": "official-225",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "4 рабочих выполняют работу за 8 дней. За сколько дней выполнят ту же работу 16 рабочих, если все работают одинаково?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-226",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 5x − 6 = 64.",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-227",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-228",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(7), B(6) и C(14). Найдите сумму расстояний CA и CB.",
+        "answer": "15",
+        "imageSvg": null,
+        "sourceId": "official-229",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 5 ⊙ 3.",
+        "answer": "23",
+        "imageSvg": null,
+        "sourceId": "official-230",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(4·5). Если полученную сумму умножить на 5, какое число получится?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-231",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 28x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "195",
+        "imageSvg": null,
+        "sourceId": "official-232",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 26 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "26",
+        "imageSvg": null,
+        "sourceId": "official-233",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 3 равных частей и одновременно на 7 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-234",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 27 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-235",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-236",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 185 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "333",
+        "imageSvg": null,
+        "sourceId": "official-237",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 60 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-238",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 1369 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "37",
+        "imageSvg": null,
+        "sourceId": "official-239",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 10 см, ширина — 8 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "50",
+        "imageSvg": null,
+        "sourceId": "official-240",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-9",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 45 + 45.",
+        "answer": "90",
+        "imageSvg": null,
+        "sourceId": "official-241",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 166 − 34.",
+        "answer": "132",
+        "imageSvg": null,
+        "sourceId": "official-242",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 10 · 11.",
+        "answer": "110",
+        "imageSvg": null,
+        "sourceId": "official-243",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 7 см и 6 см.",
+        "answer": "42",
+        "imageSvg": null,
+        "sourceId": "official-244",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 20% от числа 170.",
+        "answer": "34",
+        "imageSvg": null,
+        "sourceId": "official-245",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 8 км/ч в течение 6 часов. Какое расстояние она проехала?",
+        "answer": "48",
+        "imageSvg": null,
+        "sourceId": "official-246",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 185 задач. В первый день он решил 48, во второй — 29. Сколько задач ему осталось решить?",
+        "answer": "108",
+        "imageSvg": null,
+        "sourceId": "official-247",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(28) и B(40). Найдите координату середины отрезка AB.",
+        "answer": "34",
+        "imageSvg": null,
+        "sourceId": "official-248",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 6, и на 7.",
+        "answer": "42",
+        "imageSvg": null,
+        "sourceId": "official-249",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 3x + 8 = 17.",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-250",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 36 и 57.",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-251",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 17 и 30.",
+        "answer": "510",
+        "imageSvg": null,
+        "sourceId": "official-252",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 56?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-253",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 567.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-254",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 21 кругов, а каждый следующий день он пробегал на 4 круга больше. Сколько кругов он пробежал за 7 дней?",
+        "answer": "231",
+        "imageSvg": null,
+        "sourceId": "official-255",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "5 рабочих выполняют работу за 6 дней. За сколько дней выполнят ту же работу 10 рабочих, если все работают одинаково?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-256",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 6x − 7 = 83.",
+        "answer": "15",
+        "imageSvg": null,
+        "sourceId": "official-257",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 2×2?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-258",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(8), B(7) и C(17). Найдите сумму расстояний CA и CB.",
+        "answer": "19",
+        "imageSvg": null,
+        "sourceId": "official-259",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 6 ⊙ 4.",
+        "answer": "34",
+        "imageSvg": null,
+        "sourceId": "official-260",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(5·6). Если полученную сумму умножить на 6, какое число получится?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-261",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 30x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "224",
+        "imageSvg": null,
+        "sourceId": "official-262",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 28 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "28",
+        "imageSvg": null,
+        "sourceId": "official-263",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 4 равных частей и одновременно на 8 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-264",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 81 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-265",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-266",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 196 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "423",
+        "imageSvg": null,
+        "sourceId": "official-267",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 63 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-268",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 1681 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "41",
+        "imageSvg": null,
+        "sourceId": "official-269",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 11 см, ширина — 9 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": "official-270",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-10",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 48 + 47.",
+        "answer": "95",
+        "imageSvg": null,
+        "sourceId": "official-271",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 170 − 35.",
+        "answer": "135",
+        "imageSvg": null,
+        "sourceId": "official-272",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 11 · 8.",
+        "answer": "88",
+        "imageSvg": null,
+        "sourceId": "official-273",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 3 см и 7 см.",
+        "answer": "21",
+        "imageSvg": null,
+        "sourceId": "official-274",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 25% от числа 180.",
+        "answer": "45",
+        "imageSvg": null,
+        "sourceId": "official-275",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 9 км/ч в течение 7 часов. Какое расстояние она проехала?",
+        "answer": "63",
+        "imageSvg": null,
+        "sourceId": "official-276",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 190 задач. В первый день он решил 50, во второй — 30. Сколько задач ему осталось решить?",
+        "answer": "110",
+        "imageSvg": null,
+        "sourceId": "official-277",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(30) и B(44). Найдите координату середины отрезка AB.",
+        "answer": "37",
+        "imageSvg": null,
+        "sourceId": "official-278",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 7, и на 8.",
+        "answer": "56",
+        "imageSvg": null,
+        "sourceId": "official-279",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 4x + 9 = 25.",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-280",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 38 и 60.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-281",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 18 и 32.",
+        "answer": "288",
+        "imageSvg": null,
+        "sourceId": "official-282",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 60?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-283",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 604.",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-284",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 22 кругов, а каждый следующий день он пробегал на 5 круга больше. Сколько кругов он пробежал за 8 дней?",
+        "answer": "316",
+        "imageSvg": null,
+        "sourceId": "official-285",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "6 рабочих выполняют работу за 12 дней. За сколько дней выполнят ту же работу 18 рабочих, если все работают одинаково?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-286",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 2x − 8 = 24.",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": "official-287",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 3×3?",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-288",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(9), B(3) и C(15). Найдите сумму расстояний CA и CB.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-289",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 2 ⊙ 5.",
+        "answer": "17",
+        "imageSvg": null,
+        "sourceId": "official-290",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(6·7). Если полученную сумму умножить на 7, какое число получится?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-291",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 32x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "255",
+        "imageSvg": null,
+        "sourceId": "official-292",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 30 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-293",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 5 равных частей и одновременно на 4 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-294",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 243 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-295",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 8 часов, второй — за 4 часов. Сначала 2 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-296",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 202 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-297",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 66 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-298",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 1849 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "43",
+        "imageSvg": null,
+        "sourceId": "official-299",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 12 см, ширина — 5 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "45",
+        "imageSvg": null,
+        "sourceId": "official-300",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-11",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 51 + 49.",
+        "answer": "100",
+        "imageSvg": null,
+        "sourceId": "official-301",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 174 − 36.",
+        "answer": "138",
+        "imageSvg": null,
+        "sourceId": "official-302",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 12 · 10.",
+        "answer": "120",
+        "imageSvg": null,
+        "sourceId": "official-303",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 4 см и 4 см.",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": "official-304",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 50% от числа 190.",
+        "answer": "95",
+        "imageSvg": null,
+        "sourceId": "official-305",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 10 км/ч в течение 8 часов. Какое расстояние она проехала?",
+        "answer": "80",
+        "imageSvg": null,
+        "sourceId": "official-306",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 195 задач. В первый день он решил 52, во второй — 31. Сколько задач ему осталось решить?",
+        "answer": "112",
+        "imageSvg": null,
+        "sourceId": "official-307",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(32) и B(48). Найдите координату середины отрезка AB.",
+        "answer": "40",
+        "imageSvg": null,
+        "sourceId": "official-308",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 8, и на 9.",
+        "answer": "72",
+        "imageSvg": null,
+        "sourceId": "official-309",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 5x + 10 = 35.",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-310",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 40 и 63.",
+        "answer": "1",
+        "imageSvg": null,
+        "sourceId": "official-311",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 19 и 34.",
+        "answer": "646",
+        "imageSvg": null,
+        "sourceId": "official-312",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 63?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-313",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 641.",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-314",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 23 кругов, а каждый следующий день он пробегал на 6 круга больше. Сколько кругов он пробежал за 9 дней?",
+        "answer": "423",
+        "imageSvg": null,
+        "sourceId": "official-315",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "7 рабочих выполняют работу за 20 дней. За сколько дней выполнят ту же работу 28 рабочих, если все работают одинаково?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-316",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 3x − 9 = 42.",
+        "answer": "17",
+        "imageSvg": null,
+        "sourceId": "official-317",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-318",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(10), B(4) и C(18). Найдите сумму расстояний CA и CB.",
+        "answer": "22",
+        "imageSvg": null,
+        "sourceId": "official-319",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 3 ⊙ 6.",
+        "answer": "27",
+        "imageSvg": null,
+        "sourceId": "official-320",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(7·8). Если полученную сумму умножить на 8, какое число получится?",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": "official-321",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 34x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "288",
+        "imageSvg": null,
+        "sourceId": "official-322",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 32 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "32",
+        "imageSvg": null,
+        "sourceId": "official-323",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 6 равных частей и одновременно на 5 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-324",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 729 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-325",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-326",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 213 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "108",
+        "imageSvg": null,
+        "sourceId": "official-327",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 69 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-328",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 2209 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "47",
+        "imageSvg": null,
+        "sourceId": "official-329",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 13 см, ширина — 6 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "50",
+        "imageSvg": null,
+        "sourceId": "official-330",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-12",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 54 + 51.",
+        "answer": "105",
+        "imageSvg": null,
+        "sourceId": "official-331",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 178 − 37.",
+        "answer": "141",
+        "imageSvg": null,
+        "sourceId": "official-332",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 7 · 12.",
+        "answer": "84",
+        "imageSvg": null,
+        "sourceId": "official-333",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 5 см и 5 см.",
+        "answer": "25",
+        "imageSvg": null,
+        "sourceId": "official-334",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 10% от числа 200.",
+        "answer": "20",
+        "imageSvg": null,
+        "sourceId": "official-335",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 11 км/ч в течение 3 часов. Какое расстояние она проехала?",
+        "answer": "33",
+        "imageSvg": null,
+        "sourceId": "official-336",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 200 задач. В первый день он решил 54, во второй — 32. Сколько задач ему осталось решить?",
+        "answer": "114",
+        "imageSvg": null,
+        "sourceId": "official-337",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(34) и B(52). Найдите координату середины отрезка AB.",
+        "answer": "43",
+        "imageSvg": null,
+        "sourceId": "official-338",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 9, и на 10.",
+        "answer": "90",
+        "imageSvg": null,
+        "sourceId": "official-339",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 2x + 5 = 17.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-340",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 42 и 66.",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-341",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 20 и 36.",
+        "answer": "180",
+        "imageSvg": null,
+        "sourceId": "official-342",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 72?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-343",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 678.",
+        "answer": "21",
+        "imageSvg": null,
+        "sourceId": "official-344",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 24 кругов, а каждый следующий день он пробегал на 3 круга больше. Сколько кругов он пробежал за 7 дней?",
+        "answer": "231",
+        "imageSvg": null,
+        "sourceId": "official-345",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "4 рабочих выполняют работу за 4 дней. За сколько дней выполнят ту же работу 8 рабочих, если все работают одинаково?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-346",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 4x − 10 = 62.",
+        "answer": "18",
+        "imageSvg": null,
+        "sourceId": "official-347",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 2×2?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-348",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(5), B(5) и C(11). Найдите сумму расстояний CA и CB.",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-349",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 4 ⊙ 3.",
+        "answer": "19",
+        "imageSvg": null,
+        "sourceId": "official-350",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(8·9). Если полученную сумму умножить на 9, какое число получится?",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-351",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 36x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "323",
+        "imageSvg": null,
+        "sourceId": "official-352",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 34 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "34",
+        "imageSvg": null,
+        "sourceId": "official-353",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 3 равных частей и одновременно на 6 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-354",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 27 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-355",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 3 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-356",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 224 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "198",
+        "imageSvg": null,
+        "sourceId": "official-357",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 72 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "11",
+        "imageSvg": null,
+        "sourceId": "official-358",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 2809 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "53",
+        "imageSvg": null,
+        "sourceId": "official-359",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 8 см, ширина — 7 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "43",
+        "imageSvg": null,
+        "sourceId": "official-360",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-13",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 57 + 53.",
+        "answer": "110",
+        "imageSvg": null,
+        "sourceId": "official-361",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 182 − 38.",
+        "answer": "144",
+        "imageSvg": null,
+        "sourceId": "official-362",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 8 · 9.",
+        "answer": "72",
+        "imageSvg": null,
+        "sourceId": "official-363",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 6 см и 6 см.",
+        "answer": "36",
+        "imageSvg": null,
+        "sourceId": "official-364",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 20% от числа 210.",
+        "answer": "42",
+        "imageSvg": null,
+        "sourceId": "official-365",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 12 км/ч в течение 4 часов. Какое расстояние она проехала?",
+        "answer": "48",
+        "imageSvg": null,
+        "sourceId": "official-366",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 205 задач. В первый день он решил 56, во второй — 33. Сколько задач ему осталось решить?",
+        "answer": "116",
+        "imageSvg": null,
+        "sourceId": "official-367",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(36) и B(56). Найдите координату середины отрезка AB.",
+        "answer": "46",
+        "imageSvg": null,
+        "sourceId": "official-368",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 10, и на 6.",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-369",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 3x + 6 = 27.",
+        "answer": "7",
+        "imageSvg": null,
+        "sourceId": "official-370",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 44 и 69.",
+        "answer": "1",
+        "imageSvg": null,
+        "sourceId": "official-371",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 21 и 38.",
+        "answer": "798",
+        "imageSvg": null,
+        "sourceId": "official-372",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 75?",
+        "answer": "6",
+        "imageSvg": null,
+        "sourceId": "official-373",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 715.",
+        "answer": "13",
+        "imageSvg": null,
+        "sourceId": "official-374",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 25 кругов, а каждый следующий день он пробегал на 4 круга больше. Сколько кругов он пробежал за 8 дней?",
+        "answer": "312",
+        "imageSvg": null,
+        "sourceId": "official-375",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "5 рабочих выполняют работу за 9 дней. За сколько дней выполнят ту же работу 15 рабочих, если все работают одинаково?",
+        "answer": "3",
+        "imageSvg": null,
+        "sourceId": "official-376",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 5x − 11 = 84.",
+        "answer": "19",
+        "imageSvg": null,
+        "sourceId": "official-377",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 3×3?",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-378",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(6), B(6) и C(14). Найдите сумму расстояний CA и CB.",
+        "answer": "16",
+        "imageSvg": null,
+        "sourceId": "official-379",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 5 ⊙ 4.",
+        "answer": "29",
+        "imageSvg": null,
+        "sourceId": "official-380",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(9·10). Если полученную сумму умножить на 10, какое число получится?",
+        "answer": "9",
+        "imageSvg": null,
+        "sourceId": "official-381",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 38x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "360",
+        "imageSvg": null,
+        "sourceId": "official-382",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 36 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "36",
+        "imageSvg": null,
+        "sourceId": "official-383",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 4 равных частей и одновременно на 7 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-384",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 81 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-385",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-386",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 235 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "288",
+        "imageSvg": null,
+        "sourceId": "official-387",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 75 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-388",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 3481 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "59",
+        "imageSvg": null,
+        "sourceId": "official-389",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 9 см, ширина — 8 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "48",
+        "imageSvg": null,
+        "sourceId": "official-390",
+        "difficulty": "hard"
+      }
+    ]
+  },
+  {
+    "variant": "official-14",
+    "questions": [
+      {
+        "q": 1,
+        "prompt": "Найдите значение: 60 + 55.",
+        "answer": "115",
+        "imageSvg": null,
+        "sourceId": "official-391",
+        "difficulty": "easy"
+      },
+      {
+        "q": 2,
+        "prompt": "Найдите значение: 186 − 39.",
+        "answer": "147",
+        "imageSvg": null,
+        "sourceId": "official-392",
+        "difficulty": "easy"
+      },
+      {
+        "q": 3,
+        "prompt": "Найдите значение: 9 · 11.",
+        "answer": "99",
+        "imageSvg": null,
+        "sourceId": "official-393",
+        "difficulty": "easy"
+      },
+      {
+        "q": 4,
+        "prompt": "Найдите площадь прямоугольника со сторонами 7 см и 7 см.",
+        "answer": "49",
+        "imageSvg": null,
+        "sourceId": "official-394",
+        "difficulty": "easy"
+      },
+      {
+        "q": 5,
+        "prompt": "Найдите 25% от числа 220.",
+        "answer": "55",
+        "imageSvg": null,
+        "sourceId": "official-395",
+        "difficulty": "easy"
+      },
+      {
+        "q": 6,
+        "prompt": "Машина ехала со скоростью 6 км/ч в течение 5 часов. Какое расстояние она проехала?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-396",
+        "difficulty": "easy"
+      },
+      {
+        "q": 7,
+        "prompt": "Ученик должен решить 210 задач. В первый день он решил 58, во второй — 34. Сколько задач ему осталось решить?",
+        "answer": "118",
+        "imageSvg": null,
+        "sourceId": "official-397",
+        "difficulty": "easy"
+      },
+      {
+        "q": 8,
+        "prompt": "На координатной прямой отмечены точки A(38) и B(60). Найдите координату середины отрезка AB.",
+        "answer": "49",
+        "imageSvg": null,
+        "sourceId": "official-398",
+        "difficulty": "easy"
+      },
+      {
+        "q": 9,
+        "prompt": "Найдите наименьшее натуральное число, которое делится и на 4, и на 7.",
+        "answer": "28",
+        "imageSvg": null,
+        "sourceId": "official-399",
+        "difficulty": "easy"
+      },
+      {
+        "q": 10,
+        "prompt": "Решите уравнение: 4x + 7 = 39.",
+        "answer": "8",
+        "imageSvg": null,
+        "sourceId": "official-400",
+        "difficulty": "easy"
+      },
+      {
+        "q": 11,
+        "prompt": "Найдите НОД чисел 46 и 72.",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-401",
+        "difficulty": "medium"
+      },
+      {
+        "q": 12,
+        "prompt": "Найдите НОК чисел 22 и 40.",
+        "answer": "440",
+        "imageSvg": null,
+        "sourceId": "official-402",
+        "difficulty": "medium"
+      },
+      {
+        "q": 13,
+        "prompt": "Сколько натуральных делителей имеет число 84?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-403",
+        "difficulty": "medium"
+      },
+      {
+        "q": 14,
+        "prompt": "Найдите сумму цифр числа 752.",
+        "answer": "14",
+        "imageSvg": null,
+        "sourceId": "official-404",
+        "difficulty": "medium"
+      },
+      {
+        "q": 15,
+        "prompt": "В первый день спортсмен пробежал 26 кругов, а каждый следующий день он пробегал на 5 круга больше. Сколько кругов он пробежал за 9 дней?",
+        "answer": "414",
+        "imageSvg": null,
+        "sourceId": "official-405",
+        "difficulty": "medium"
+      },
+      {
+        "q": 16,
+        "prompt": "6 рабочих выполняют работу за 16 дней. За сколько дней выполнят ту же работу 24 рабочих, если все работают одинаково?",
+        "answer": "4",
+        "imageSvg": null,
+        "sourceId": "official-406",
+        "difficulty": "medium"
+      },
+      {
+        "q": 17,
+        "prompt": "Решите уравнение: 6x − 5 = 115.",
+        "answer": "20",
+        "imageSvg": null,
+        "sourceId": "official-407",
+        "difficulty": "medium"
+      },
+      {
+        "q": 18,
+        "prompt": "Сколько квадратов можно найти на квадратной сетке 4×4?",
+        "answer": "30",
+        "imageSvg": null,
+        "sourceId": "official-408",
+        "difficulty": "medium"
+      },
+      {
+        "q": 19,
+        "prompt": "На координатной прямой отмечены точки A(7), B(7) и C(17). Найдите сумму расстояний CA и CB.",
+        "answer": "20",
+        "imageSvg": null,
+        "sourceId": "official-409",
+        "difficulty": "medium"
+      },
+      {
+        "q": 20,
+        "prompt": "Операция ⊙ задана правилом: a ⊙ b = a·b + a + b. Найдите значение 6 ⊙ 5.",
+        "answer": "41",
+        "imageSvg": null,
+        "sourceId": "official-410",
+        "difficulty": "medium"
+      },
+      {
+        "q": 21,
+        "prompt": "Вычислите сумму 1/(1·2) + 1/(2·3) + 1/(3·4) + ... + 1/(10·11). Если полученную сумму умножить на 11, какое число получится?",
+        "answer": "10",
+        "imageSvg": null,
+        "sourceId": "official-411",
+        "difficulty": "hard"
+      },
+      {
+        "q": 22,
+        "prompt": "Уравнение x² − 40x + q = 0 имеет два натуральных корня, разность которых равна 2. Найдите q.",
+        "answer": "399",
+        "imageSvg": null,
+        "sourceId": "official-412",
+        "difficulty": "hard"
+      },
+      {
+        "q": 23,
+        "prompt": "Сколько раз за 38 часов минутная и часовая стрелки совпадут, если отсчёт начинается ровно с 12:00 и совпадение в момент 12:00 не считать?",
+        "answer": "38",
+        "imageSvg": null,
+        "sourceId": "official-413",
+        "difficulty": "hard"
+      },
+      {
+        "q": 24,
+        "prompt": "Отрезок разделили отметками на 5 равных частей и одновременно на 8 равных частей. На сколько частей оказался разбит отрезок после нанесения всех отметок?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-414",
+        "difficulty": "hard"
+      },
+      {
+        "q": 25,
+        "prompt": "Среди 243 монет одна фальшивая и известно, что она легче остальных. Какое наименьшее число взвешиваний на чашечных весах необходимо, чтобы наверняка найти фальшивую монету?",
+        "answer": "5",
+        "imageSvg": null,
+        "sourceId": "official-415",
+        "difficulty": "hard"
+      },
+      {
+        "q": 26,
+        "prompt": "Первый мастер может выполнить работу за 6 часов, второй — за 3 часов. Сначала 1 час работал только первый мастер, после чего к нему присоединился второй. Через сколько часов после начала работы была выполнена вся работа?",
+        "answer": "2",
+        "imageSvg": null,
+        "sourceId": "official-416",
+        "difficulty": "hard"
+      },
+      {
+        "q": 27,
+        "prompt": "Из двузначного числа 246 перенесли цифру единиц в разряд сотен, получив трёхзначное число. Найдите разность между полученным и исходным числами.",
+        "answer": "378",
+        "imageSvg": null,
+        "sourceId": "official-417",
+        "difficulty": "hard"
+      },
+      {
+        "q": 28,
+        "prompt": "Сколькими способами число 78 можно представить в виде суммы двух различных натуральных чисел, каждое из которых делится на 3?",
+        "answer": "12",
+        "imageSvg": null,
+        "sourceId": "official-418",
+        "difficulty": "hard"
+      },
+      {
+        "q": 29,
+        "prompt": "Число 3721 имеет ровно 3 натуральных делителя. Найдите квадратный корень из этого числа.",
+        "answer": "61",
+        "imageSvg": null,
+        "sourceId": "official-419",
+        "difficulty": "hard"
+      },
+      {
+        "q": 30,
+        "prompt": "У прямоугольника длина равна 10 см, ширина — 9 см. Его длину увеличили на 3 см, а ширину — на 2 см. На сколько квадратных сантиметров увеличилась площадь прямоугольника?",
+        "answer": "53",
+        "imageSvg": null,
+        "sourceId": "official-420",
+        "difficulty": "hard"
+      }
+    ]
+  }
+]
