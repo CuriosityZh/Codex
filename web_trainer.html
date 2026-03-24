@@ -1,0 +1,918 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тренажер 7 класс (Windows)</title>
+  <style>
+    :root {
+      --bg: #f4f7f8;
+      --card: #ffffff;
+      --ink: #102025;
+      --muted: #52646a;
+      --accent: #0b7285;
+      --accent2: #e67700;
+      --ok: #2b8a3e;
+      --bad: #c92a2a;
+      --warn: #d9480f;
+      --border: #d5e3e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% -10%, #dff3f7 0%, transparent 50%),
+        radial-gradient(circle at 100% 0%, #fff2de 0%, transparent 45%),
+        var(--bg);
+      min-height: 100vh;
+      padding: 20px 12px;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; display: grid; gap: 12px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: 0 8px 24px rgba(16, 32, 37, 0.08);
+    }
+    h1 { margin: 0; font-size: 1.45rem; }
+    .sub { margin: 4px 0 0; color: var(--muted); font-size: 0.92rem; }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .pill {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #f8fbfc;
+      padding: 8px;
+      font-size: 0.92rem;
+    }
+    .timer { font-weight: 700; color: var(--warn); }
+    .question {
+      font-size: 1.08rem;
+      line-height: 1.42;
+      margin: 8px 0;
+      min-height: 60px;
+    }
+    .image-box {
+      margin: 8px 0 10px;
+      border: 1px dashed var(--border);
+      border-radius: 10px;
+      padding: 8px;
+      background: #fbfeff;
+      display: none;
+    }
+    .image-box svg { width: 100%; height: auto; display: block; max-width: 420px; }
+    .hint { color: var(--muted); font-size: 0.9rem; margin-bottom: 8px; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; }
+    input[type="text"] {
+      flex: 1;
+      min-width: 220px;
+      border: 1px solid #b4c8ce;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 1rem;
+    }
+    button {
+      border: 0;
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: #fff;
+      background: var(--accent);
+      cursor: pointer;
+      font-size: 0.92rem;
+    }
+    button.secondary { background: var(--accent2); }
+    button:disabled { opacity: 0.55; cursor: default; }
+    .feedback { min-height: 22px; margin-top: 8px; font-weight: 700; }
+    .ok { color: var(--ok); }
+    .bad { color: var(--bad); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(10, minmax(0, 1fr));
+      gap: 6px;
+    }
+    .num {
+      border: 1px solid var(--border);
+      background: #f8fbfc;
+      border-radius: 8px;
+      text-align: center;
+      padding: 6px 0;
+      font-size: 0.85rem;
+    }
+    .num.cur { border-color: #0b7285; background: #e6f4f7; }
+    .num.ok { border-color: #2b8a3e; background: #e8f8ec; color: #1e6f31; }
+    .num.bad { border-color: #c92a2a; background: #fde9e9; color: #9f1f1f; }
+    .num.none { color: #52646a; }
+    @media (max-width: 760px) { .grid { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+    @media (max-width: 520px) { .grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Тренажер: 3 режима</h1>
+      <p class="sub">Выберите режим: Основной (30 вопросов), Олимпиадный (15 вопросов) или Интенсив (30 вопросов). Общее время: 90:00.</p>
+      <div class="meta">
+        <div class="pill">Режим: <strong id="modeName">—</strong></div>
+        <div class="pill">Текущий вопрос: <strong id="qPos">—</strong></div>
+        <div class="pill">Тип: <strong id="qDiff">—</strong></div>
+        <div class="pill">Таймер: <span class="timer" id="timer">90:00</span></div>
+        <div class="pill">Верно: <strong id="okTotal">0</strong></div>
+        <div class="pill">Решено: <strong id="answeredTotal">0</strong></div>
+        <div class="pill">Нерешено: <strong id="unsolvedTotal">—</strong></div>
+      </div>
+      <div class="row" style="margin-top:10px;">
+        <button id="startMainBtn" class="secondary">Основной</button>
+        <button id="startOlympBtn" class="secondary">Олимпиадный</button>
+        <button id="startIntensiveBtn" class="secondary">Интенсив</button>
+        <button id="launchBtn">Начать тест</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <p id="question" class="question"></p>
+      <div id="taskImageBox" class="image-box"></div>
+      <div id="hint" class="hint"></div>
+      <div class="row">
+        <input id="answerInput" type="text" placeholder="Ответ" />
+        <button id="submitBtn">Ответить</button>
+        <button id="prevBtn" class="secondary">Назад</button>
+        <button id="nextBtn" class="secondary">Вперёд</button>
+        <button id="finishBtn" class="secondary">Закончить тест</button>
+      </div>
+      <div id="feedback" class="feedback"></div>
+    </section>
+
+    <section class="card">
+      <h2 style="margin:0 0 8px; font-size:1rem;">Статус вопросов</h2>
+      <div id="statusGrid" class="grid"></div>
+      <p class="sub" style="margin-top:8px;">Зеленый: правильно, красный: неверно или время вышло, серый: текущий вопрос.</p>
+    </section>
+
+    <section class="card">
+      <h2 style="margin:0 0 8px; font-size:1rem;">История тестов</h2>
+      <div class="row" style="margin-bottom:8px;">
+        <button id="exportHistoryBtn" class="secondary">Экспорт истории</button>
+        <button id="importHistoryBtn" class="secondary">Импорт истории</button>
+        <input id="importHistoryFile" type="file" accept=".json,application/json" style="display:none;" />
+      </div>
+      <div id="historyBox" class="sub">Пока нет завершенных тестов.</div>
+    </section>
+
+    <section class="card">
+      <h2 style="margin:0 0 8px; font-size:1rem;">Работа над ошибками</h2>
+      <div id="reviewBox" class="sub">Выберите вопрос из истории, чтобы посмотреть условие и ответы.</div>
+    </section>
+  </main>
+
+  <script>
+    const MAIN_TOTAL = 30;
+    const OLYMP_TOTAL = 15;
+    const TOTAL_TIME = 3 * 30 * 60;
+    const HISTORY_KEY = 'trainer_exam_history_v1';
+    const MAIN_VARIANTS_URL = 'assets/main_variants_bank.json';
+    const INTENSIVE_VARIANTS_URL = 'assets/intensiv_variants_bank.json';
+    const MAIN_MANUAL_VARIANTS_URL = 'assets/main_variants_manual.json';
+    const MAIN_CURSOR_KEY = 'trainer_main_variant_cursor_v1';
+    const INTENSIVE_CURSOR_KEY = 'trainer_intensive_variant_cursor_v1';
+
+    const state = {
+      tasks: [],
+      idx: 0,
+      timerId: null,
+      timeLeft: TOTAL_TIME,
+      submitted: Array(MAIN_TOTAL).fill(false),
+      solved: Array(MAIN_TOTAL).fill(false),
+      userAnswers: Array(MAIN_TOTAL).fill(null),
+      answersCount: 0,
+      correctCount: 0,
+      mode: null,
+      pendingMode: null,
+      pendingModeKey: null,
+      variantNo: null,
+      totalQuestions: 0,
+      startAt: null,
+      started: false,
+      finished: false
+    };
+    let mainVariants = [];
+    let intensiveVariants = [];
+    const motivationPools = {
+      high: [
+        'Арлен, очень сильный результат. Так держать.',
+        'Арлен, это уже уровень уверенной подготовки. Продолжай в том же темпе.',
+        'Арлен, видно, что база становится крепче. Отличная работа.',
+        'Арлен, тест пройден очень уверенно. Дальше можно брать еще сложнее.',
+        'Арлен, ты хорошо держишь темп и качество. Это важный прогресс.',
+        'Арлен, очень достойно. Такая стабильность дает результат на экзамене.'
+      ],
+      mid: [
+        'Арлен, хорошая работа. Ошибки есть, но движение правильное.',
+        'Арлен, результат крепкий. Разбор ошибок сейчас даст сильный прирост.',
+        'Арлен, уже видно продвижение. Следующий тест может быть еще лучше.',
+        'Арлен, неплохо. Если спокойно разобрать ошибки, уровень быстро вырастет.',
+        'Арлен, основа есть. Продолжай, и уверенность станет стабильной.',
+        'Арлен, хороший шаг вперед. Главное сохранить ритм.'
+      ],
+      low: [
+        'Арлен, продолжаем. Каждый такой тест делает тебя сильнее.',
+        'Арлен, это часть подготовки. Сейчас главное спокойно разобрать ошибки и идти дальше.',
+        'Арлен, не останавливайся. Именно через такие попытки приходит уверенность.',
+        'Арлен, результат можно улучшить. Следующий тест начни с чистой головой.',
+        'Арлен, работа идет. Разберем ошибки и двинемся дальше.',
+        'Арлен, не сбавляй. Регулярность здесь важнее одного результата.'
+      ]
+    };
+
+    const $ = (id) => document.getElementById(id);
+    const randInt = (a, b) => Math.floor(Math.random() * (b - a + 1)) + a;
+    const choose = (arr) => arr[randInt(0, arr.length - 1)];
+
+    function parseAnswer(raw) {
+      const s = raw.trim().replace(',', '.');
+      if (!s) return null;
+      if (/^-?\d+\/-?\d+$/.test(s)) {
+        const [n, d] = s.split('/').map(Number);
+        if (d === 0) return null;
+        return n / d;
+      }
+      if (/^-?\d+(\.\d+)?$/.test(s)) {
+        return Number(s);
+      }
+      return s.toLowerCase();
+    }
+
+    function normalizeExpected(raw) {
+      const s = String(raw ?? '').trim().replace(',', '.');
+      if (/^-?\d+\/-?\d+$/.test(s)) {
+        const [n, d] = s.split('/').map(Number);
+        if (d !== 0) return n / d;
+      }
+      if (/^-?\d+(\.\d+)?$/.test(s)) return Number(s);
+      return s.toLowerCase();
+    }
+
+    function isCorrectAnswer(user, expectedRaw) {
+      const expected = normalizeExpected(expectedRaw);
+      if (typeof user === 'number' && typeof expected === 'number') {
+        return Math.abs(user - expected) < 1e-6;
+      }
+      return String(user) === String(expected);
+    }
+
+    function toVariantArray(data) {
+      if (Array.isArray(data)) return data;
+      if (data && Array.isArray(data.variants)) return data.variants;
+      return [];
+    }
+
+    function normalizeVariant(variant, fallbackName) {
+      const questions = Array.isArray(variant && variant.questions) ? variant.questions : [];
+      const diffMap = {
+        easy: 'лёгкая',
+        medium: 'средняя',
+        hard: 'сложная',
+        'лёгкая': 'лёгкая',
+        'средняя': 'средняя',
+        'сложная': 'сложная'
+      };
+      return {
+        variant: variant && variant.variant != null ? variant.variant : fallbackName,
+        questions: questions.map((q, index) => ({
+          q: Number.isInteger(q && q.q) ? q.q : index + 1,
+          prompt: String((q && (q.prompt || q.question)) || '').trim(),
+          answer: String(q && q.answer != null ? q.answer : '').trim(),
+          imageSvg: q && q.imageSvg ? String(q.imageSvg) : null,
+          diff: diffMap[q && q.difficulty] || 'сложная'
+        }))
+      };
+    }
+
+    function isNaturalAnswer(value) {
+      return /^(0|[1-9]\d*)$/.test(String(value || '').trim());
+    }
+
+    function isNumericAnswer(value) {
+      const s = String(value || '').trim().replace(',', '.');
+      return /^-?\d+(\.\d+)?$/.test(s) || /^-?\d+\/-?\d+$/.test(s);
+    }
+
+    function validateVariant(variant, modeKey = 'main') {
+      if (!variant || !Array.isArray(variant.questions)) throw new Error('Вариант имеет неверную структуру');
+      if (variant.questions.length !== MAIN_TOTAL) throw new Error(`Вариант ${variant.variant} должен содержать ровно ${MAIN_TOTAL} задач`);
+      for (let i = 0; i < variant.questions.length; i++) {
+        const q = variant.questions[i];
+        if (!q.prompt) throw new Error(`В варианте ${variant.variant} у задачи ${i + 1} пустое условие`);
+        if (modeKey === 'intensive') {
+          if (!isNumericAnswer(q.answer)) throw new Error(`В варианте ${variant.variant} у задачи ${i + 1} ответ должен быть числом`);
+        } else if (!isNaturalAnswer(q.answer)) {
+          throw new Error(`В варианте ${variant.variant} у задачи ${i + 1} ответ должен быть неотрицательным целым числом`);
+        }
+      }
+    }
+
+    async function loadMainVariants() {
+      if (mainVariants.length) return;
+      const [baseRes, manualRes] = await Promise.all([
+        fetch(MAIN_VARIANTS_URL, { cache: 'no-store' }),
+        fetch(MAIN_MANUAL_VARIANTS_URL, { cache: 'no-store' })
+      ]);
+      if (!baseRes.ok) throw new Error('Не удалось загрузить основную базу тестов');
+      if (!manualRes.ok) throw new Error('Не удалось загрузить файл ручных вариантов');
+      const baseData = toVariantArray(await baseRes.json());
+      const manualData = toVariantArray(await manualRes.json());
+      const merged = [
+        ...baseData.map((v, i) => normalizeVariant(v, `auto-${i + 1}`)),
+        ...manualData.map((v, i) => normalizeVariant(v, `manual-${i + 1}`))
+      ];
+      if (!merged.length) throw new Error('Основная база пуста');
+      merged.forEach((variant) => validateVariant(variant, 'main'));
+      mainVariants = merged;
+    }
+
+    async function loadIntensiveVariants() {
+      if (intensiveVariants.length) return;
+      const res = await fetch(INTENSIVE_VARIANTS_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error('Не удалось загрузить базу режима Интенсив');
+      const data = toVariantArray(await res.json()).map((v, i) => normalizeVariant(v, `intensive-${i + 1}`));
+      if (!data.length) throw new Error('База режима Интенсив пуста');
+      data.forEach((variant) => validateVariant(variant, 'intensive'));
+      intensiveVariants = data;
+    }
+
+    function getNextVariant(variants, storageKey, emptyMessage) {
+      if (!variants.length) throw new Error(emptyMessage);
+      let cursor = 0;
+      try {
+        cursor = Number(localStorage.getItem(storageKey) || '0');
+      } catch (_) {
+        cursor = 0;
+      }
+      if (!Number.isInteger(cursor) || cursor < 0) cursor = 0;
+      const index = cursor % variants.length;
+      try {
+        localStorage.setItem(storageKey, String((index + 1) % variants.length));
+      } catch (_) {}
+      return variants[index];
+    }
+
+    function getNextMainVariant() {
+      return getNextVariant(mainVariants, MAIN_CURSOR_KEY, 'Основная база пуста');
+    }
+
+    function getNextIntensiveVariant() {
+      return getNextVariant(intensiveVariants, INTENSIVE_CURSOR_KEY, 'База режима Интенсив пуста');
+    }
+
+    function task(diff, prompt, answer, imageSvg = null) {
+      return { diff, prompt, answer, note: 'число', imageSvg };
+    }
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = randInt(0, i);
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    const easyTemplates = [
+      () => task('лёгкая', 'Собственная скорость катера 21 км/ч, скорость по течению 24 км/ч. Найдите скорость катера против течения реки (км/ч).', 18),
+      () => { const p = choose([20, 25, 40, 50]), mass = choose([40, 60, 80, 100]), target = (p * mass) / 100; return task('лёгкая', `Сплав содержит ${p}% меди. Сколько кг сплава нужно взять, чтобы меди было ${target} кг?`, mass); },
+      () => { const a = choose([2, 3, 4]), b = choose([5, 6, 7]), q = randInt(3, 12), x = a * q, y = b * q, d = y - x; return task('лёгкая', `Второе число на ${d} больше первого. Частное от деления первого на ${a} равно частному от деления второго на ${b}. Найдите первое число.`, x); },
+      () => { const a = choose([5, 6, 7, 8]), b = a + choose([1, 2, 3]), friends = randInt(6, 24), rem = randInt(1, a - 1); const total = a * friends + rem, shortage = b * friends - total; return task('лёгкая', `Если дать каждому по ${a} конфет, останется ${rem}. Если по ${b}, не хватит ${shortage}. Сколько друзей?`, friends); },
+      () => { const a = randInt(2, 7), b = randInt(2, 7), c = randInt(2, 7), k = randInt(5, 20); const p = (a + b + c) * k; return task('лёгкая', `Периметр треугольника ${p}, стороны относятся как ${a}:${b}:${c}. Найдите наибольшую сторону.`, Math.max(a, b, c) * k); },
+      () => { const all = choose([24, 30, 36, 42, 48]), part = choose([2, 3, 4, 6]), val = all / part; return task('лёгкая', `Турист прошел ${val} км, что составило 1/${part} всего пути. Какова длина всего пути?`, all); },
+      () => task('лёгкая', 'В коробке 17 пар носков. Какое минимальное число носков нужно взять, чтобы гарантированно получить 5 пар?', 22),
+      () => task('лёгкая', 'Дана последовательность: 3, 4, 6, 8, 12, 14, 18, 20, 24, ... Найдите сумму следующих трех членов.', 88),
+      () => { const first = choose([80, 90, 100, 110]), step = choose([10, 15, 20]), n = randInt(5, 9); return task('лёгкая', `В первом месяце сделали ${first} работ, каждый следующий на ${step} больше. Сколько работ в ${n}-м месяце?`, first + (n - 1) * step); },
+      () => { const h = randInt(2, 9), m = choose([0, 15, 30, 45]); return task('лёгкая', `Сколько минут составляет ${h} ч ${m} мин?`, h * 60 + m); }
+    ];
+
+    const mediumTemplates = [
+      () => { const h = randInt(1, 11), m = choose([0, 10, 20, 30, 40, 50]); const minuteA = 6 * m, hourA = 30 * h + 0.5 * m; let d = Math.abs(minuteA - hourA); d = Math.min(d, 360 - d); return task('средняя', `Какой угол (в градусах) между минутной и часовой стрелками в ${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}?`, Math.round(d)); },
+      () => { const p = choose([20, 25, 30, 40]), q = choose([25, 50]); const whole = choose([80, 96, 120, 144, 160]); const rest = whole * (100 - p) * (100 - q) / 10000; if (!Number.isInteger(rest) || rest <= 0) return mediumTemplates[1](); return task('средняя', `За первый день вспахали ${p}% поля, за второй ${q}% от остатка, за третий день — остальные ${rest} га. Найдите площадь поля.`, whole); },
+      () => { const pair = choose([[4, 4, 2], [6, 3, 2], [12, 6, 4], [10, 10, 5]]); return task('средняя', `Первый мастер делает работу за ${pair[0]} ч, второй за ${pair[1]} ч. За сколько часов вместе?`, pair[2]); },
+      () => task('средняя', 'Возраст бабушки в 4,5 раза больше возраста внука, а через 3 года она будет в 4 раза старше. Сколько лет бабушке сейчас?', 36),
+      () => { const p = choose([20, 25, 40, 50]), total = choose([120, 160, 200]); const d1 = total * p / 100; const d2 = total * 21 / 100; const d3 = total * 25 / 100; if (!Number.isInteger(d1) || !Number.isInteger(d2) || !Number.isInteger(d3)) return mediumTemplates[4](); return task('средняя', `Текст набирали 3 дня: в первый день 40%, во второй — ${d2} стр, в третий осталось 25% текста. Сколько страниц всего?`, total); },
+      () => task('средняя', 'Пять парней за пять дней съели пять окуней. За сколько дней 15 парней съедят 15 окуней?', 5),
+      () => { const side = choose([4, 5, 6, 8, 10]); return task('средняя', `Найдите площадь квадрата со стороной ${side}.`, side * side); },
+      () => { const n = choose([11, 13, 17, 19]), k = randInt(2, 6), m = n * k + 1; return task('средняя', `Найдите остаток от деления ${m} на ${n}.`, 1); },
+      () => { const speed = choose([6, 8, 10, 12]), time = choose([3, 4, 5]); return task('средняя', `Турист шел со скоростью ${speed} км/ч в течение ${time} часов. Какой путь он прошел?`, speed * time); },
+      () => { const n = choose([20, 25, 30, 40]); return task('средняя', `Сколько слагаемых суммы 1 + 2 + 3 + ... нужно взять, чтобы сумма впервые стала не меньше ${n * n}?`, n); }
+    ];
+
+    const hardTemplates = [
+      () => { const n = randInt(12, 50); const val = BigInt('7'.repeat(n)) + BigInt('9'.repeat(n)); const digits = val.toString().split('').reduce((s, ch) => s + Number(ch), 0); return task('сложная', `К ${n}-значному числу из одних семерок прибавили ${n}-значное из одних девяток. Чему равна сумма цифр результата?`, digits); },
+      () => { const mod1 = choose([5, 7, 9]), mod2 = choose([4, 6, 8]); const lcm = (mod1 * mod2) / ((function gcd(a,b){while(b){[a,b]=[b,a%b];} return a;})(mod1, mod2)); const ans = randInt(1, lcm - 1); const r1 = ans % mod1, r2 = ans % mod2; return task('сложная', `Найдите наименьшее неотрицательное x: x ≡ ${r1} (mod ${mod1}) и x ≡ ${r2} (mod ${mod2}).`, ans); },
+      () => { const a = randInt(2, 6), b = randInt(10, 30), c = b + randInt(20, 60); const low = Math.ceil((b + 1) / a), high = Math.floor((c - 1) / a); return task('сложная', `Сколько целых x удовлетворяют двойному неравенству: ${b} < ${a}x < ${c}?`, Math.max(0, high - low + 1)); },
+      () => task('сложная', 'Для нумерации страниц учебника понадобилось 5341 цифра. Сколько страниц в учебнике?', 1677),
+      () => task('сложная', 'Решите уравнение: 45/x = 1/(1·2) + 1/(2·3) + ... + 1/(15·16).', 48),
+      () => task('сложная', 'Две трубы вместе наполняют бассейн за 10 часов. Одна труба вдвое быстрее другой. За сколько часов наполнит медленная труба?', 30),
+      () => task('сложная', 'Четыре друга арендовали офис. Первый внёс треть от суммы остальных, второй — четверть от остальных, третий — половину от остальных, четвёртый внёс 260 долларов. Какова общая стоимость аренды?', 1200),
+      () => { const a = randInt(2, 5), b = randInt(1, 8), c = b + randInt(6, 18); const minX = Math.ceil(b / a), maxX = Math.floor(c / a); const prod = (minX <= maxX) ? Array.from({ length: maxX - minX + 1 }, (_, i) => minX + i).reduce((p, v) => p * v, 1) : 1; return task('сложная', `Найдите произведение всех целых x, удовлетворяющих: ${b} ≤ ${a}x ≤ ${c}.`, prod); },
+      () => {
+        const svg = `
+<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" aria-label="Рисунок с квадратами">
+  <rect x="20" y="20" width="180" height="180" fill="white" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="20" x2="80" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="140" y1="20" x2="140" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="20" y1="80" x2="200" y2="80" stroke="#333" stroke-width="2"/>
+  <line x1="20" y1="140" x2="200" y2="140" stroke="#333" stroke-width="2"/>
+  <rect x="80" y="80" width="60" height="60" fill="none" stroke="#0b7285" stroke-width="3"/>
+</svg>`;
+        return task('сложная', 'Сколько всего квадратов можно найти на рисунке?', 15, svg);
+      },
+      () => { const all = choose([60, 90, 120]), p = choose([20, 30, 40]); const part = all * p / 100; return task('сложная', `Найдите ${p}% от числа ${all}.`, part); }
+    ];
+
+    const olympiadTemplates = [
+      () => task('олимпиадная', 'Сколько всего четырёхзначных чисел, у которых сумма первых трёх цифр равна 25, а сумма последних трёх цифр равна 16? Число не должно начинаться с нуля.', 3),
+      () => task('олимпиадная', 'На прямой точки A, B, C, D расположены в указанном порядке. AC = 12 см, BD = 14 см, AD = 16 см. Найдите длину BC.', 10),
+      () => task('олимпиадная', 'В числе 2938710564 зачеркните четыре цифры так, чтобы оставшиеся цифры в том же порядке образовали как можно большее число. В ответ запишите получившееся число.', 987564),
+      () => task('олимпиадная', 'После стирания первой и последней цифры осталось 01234456789987654321100. Восстановите стёртые цифры, если исходное число делилось на 144. Ответ запишите двумя цифрами подряд.', 58),
+      () => task('олимпиадная', 'Среди чисел от 200 до 600 включительно Ира подчеркнула кратные 7, Петя — чётные, Оля — кратные 4. Сколько чисел подчеркнуты ровно два раза?', 101),
+      () => task('олимпиадная', 'Есть 6 красных, 3 жёлтых и 3 синих шара. Сколькими способами можно выложить их в ряд, чтобы никакие два шара одного цвета не лежали рядом? Шары одного цвета неразличимы.', 100),
+      () => task('олимпиадная', 'В вазе лежат N вишен. За ход можно брать 1, 2 или 3. Сколько значений N от 25 до 35 включительно выигрышны для первого игрока?', 9),
+      () => {
+        const svg = `<svg viewBox="0 0 260 120" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="100" height="80" fill="none" stroke="#333" stroke-width="2"/><path d="M10 10 H110 V90 H30 V30 H90 V70 H50 V50 H70" fill="none" stroke="#0b7285" stroke-width="2"/><text x="130" y="35" font-size="14" fill="#333">Спираль</text><text x="130" y="58" font-size="12" fill="#666">пример обхода</text></svg>`;
+        return task('олимпиадная', 'Вирус съедает клетки прямоугольника 604×4004 по спирали. В какой-то момент останется полоска 1×k. Найдите наибольшее k.', 3402, svg);
+      },
+      () => task('олимпиадная', 'Когда Андрей был у 5-го флажка, Денис был у 3-го. У какого флажка будет Денис, когда Андрей будет у 25-го?', 13),
+      () => task('олимпиадная', 'За 4 часа Сергей захватил 72 страны. В первый час — в 6 раз меньше, чем в третий, но в 7 раз больше, чем во второй. Сколько стран он захватил в четвёртый час?', 22),
+      () => task('олимпиадная', 'По списку сыгранных партий (задача про турнир 5 и 6 классов) определите число пятиклассников.', 7),
+      () => task('олимпиадная', 'По условиям задачи про кошек, котят, собак и щенков определите число котят в деревне.', 21),
+      () => task('олимпиадная', 'Сочинение на 555 страниц. Среди любых 10 подряд страниц страниц с ошибками больше, чем без ошибок. Какое максимальное число страниц без ошибок возможно?', 224),
+      () => task('олимпиадная', 'Пазл собирался 2 часа 46,5 минуты, каждое соединение двух деталей занимает 10 секунд. Сколько деталей было изначально?', 1000),
+      () => {
+        const svg = `<svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg"><rect x="15" y="15" width="150" height="150" fill="white" stroke="#333" stroke-width="2"/><line x1="65" y1="15" x2="65" y2="165" stroke="#333"/><line x1="115" y1="15" x2="115" y2="165" stroke="#333"/><line x1="15" y1="65" x2="165" y2="65" stroke="#333"/><line x1="15" y1="115" x2="165" y2="115" stroke="#333"/></svg>`;
+        return task('олимпиадная', 'На доске 3×3 закрашенные клетки образуют либо квадрат 2×2, либо вертикальную полосу 3×1. Какое минимальное число клеток нужно посмотреть, чтобы гарантированно определить фигуру?', 2, svg);
+      },
+      () => task('олимпиадная', 'Найдите наибольшее натуральное число, в котором цифры не повторяются, а любые две соседние цифры отличаются хотя бы на 6.', 60718293)
+    ];
+
+    function isValidTask(t) {
+      return t && String(t.prompt || '').trim() && String(t.answer ?? '').trim() !== '';
+    }
+
+    function buildExam(modeKey) {
+      let rawTasks;
+      if (modeKey === 'olymp') {
+        rawTasks = shuffle(olympiadTemplates).slice(0, OLYMP_TOTAL).map((g) => g());
+        state.mode = 'Олимпиадный';
+        state.totalQuestions = OLYMP_TOTAL;
+        state.variantNo = null;
+      } else if (modeKey === 'intensive') {
+        const picked = getNextIntensiveVariant();
+        rawTasks = (picked.questions || []).slice().sort((a, b) => a.q - b.q).map((q) => ({
+          diff: q.diff || 'сложная',
+          prompt: q.prompt,
+          answer: q.answer,
+          note: 'число или дробь',
+          imageSvg: q.imageSvg || null
+        }));
+        state.mode = 'Интенсив';
+        state.totalQuestions = MAIN_TOTAL;
+        state.variantNo = picked.variant || null;
+      } else {
+        const picked = getNextMainVariant();
+        rawTasks = (picked.questions || []).slice().sort((a, b) => a.q - b.q).map((q) => ({
+          diff: q.diff || 'сложная',
+          prompt: q.prompt,
+          answer: q.answer,
+          note: 'целое число',
+          imageSvg: q.imageSvg || null
+        }));
+        state.mode = 'Основной';
+        state.totalQuestions = MAIN_TOTAL;
+        state.variantNo = picked.variant || null;
+      }
+      state.tasks = rawTasks.filter(isValidTask);
+      if (state.tasks.length !== state.totalQuestions) throw new Error('База задач некорректна');
+      state.idx = 0;
+      state.timeLeft = TOTAL_TIME;
+      state.submitted = Array(state.totalQuestions).fill(false);
+      state.solved = Array(state.totalQuestions).fill(false);
+      state.userAnswers = Array(state.totalQuestions).fill(null);
+      state.answersCount = 0;
+      state.correctCount = 0;
+      state.startAt = new Date();
+      state.started = true;
+      state.finished = false;
+    }
+
+    function formatTimer(sec) {
+      const m = String(Math.floor(sec / 60)).padStart(2, '0');
+      const s = String(sec % 60).padStart(2, '0');
+      return `${m}:${s}`;
+    }
+
+    function renderGrid() {
+      const grid = $('statusGrid');
+      grid.innerHTML = '';
+      for (let i = 0; i < state.totalQuestions; i++) {
+        const d = document.createElement('div');
+        d.className = 'num ' + (i === state.idx ? 'cur' : state.solved[i] ? 'ok' : state.submitted[i] ? 'bad' : 'none');
+        d.textContent = String(i + 1);
+        if (state.started && !state.finished) {
+          d.style.cursor = 'pointer';
+          d.addEventListener('click', () => goTo(i));
+        }
+        grid.appendChild(d);
+      }
+    }
+
+    function updateMeta() {
+      const t = state.tasks[state.idx];
+      $('modeName').textContent = state.started ? (state.mode || '—') : (state.pendingMode || '—');
+      $('qPos').textContent = state.started ? `${state.idx + 1}/${state.totalQuestions}` : '—';
+      $('qDiff').textContent = (state.started && t) ? t.diff : '—';
+      $('timer').textContent = formatTimer(Math.max(0, state.timeLeft));
+      $('okTotal').textContent = String(state.correctCount);
+      $('answeredTotal').textContent = String(state.answersCount);
+      $('unsolvedTotal').textContent = String(state.started ? (state.totalQuestions - state.solved.filter(Boolean).length) : '—');
+    }
+
+    function showTask() {
+      if (!state.started) {
+        $('question').textContent = 'Нажмите "Начать тест", чтобы запустить пробник.';
+        $('taskImageBox').style.display = 'none';
+        $('taskImageBox').innerHTML = '';
+        $('hint').textContent = state.pendingMode ? `Выбран режим: ${state.pendingMode}. Общий таймер 90:00.` : 'Выберите режим. Общий таймер 90:00.';
+        $('answerInput').value = '';
+        $('feedback').textContent = '';
+        $('feedback').className = 'feedback';
+        updateMeta();
+        renderGrid();
+        return;
+      }
+      const t = state.tasks[state.idx];
+      $('question').textContent = t.prompt;
+      if (t.imageSvg) {
+        $('taskImageBox').style.display = 'block';
+        $('taskImageBox').innerHTML = t.imageSvg;
+      } else {
+        $('taskImageBox').style.display = 'none';
+        $('taskImageBox').innerHTML = '';
+      }
+      $('hint').textContent = `Формат ответа: ${t.note || 'число или дробь'}`;
+      $('answerInput').value = '';
+      $('feedback').textContent = '';
+      $('feedback').className = 'feedback';
+      updateMeta();
+      renderGrid();
+      $('answerInput').focus();
+    }
+
+    function goTo(index) {
+      if (!state.started || state.finished) return;
+      if (index < 0 || index >= state.totalQuestions) return;
+      state.idx = index;
+      showTask();
+    }
+
+    function submitCurrent() {
+      if (state.finished || !state.started) return;
+      const i = state.idx;
+      if (state.submitted[i]) {
+        $('feedback').textContent = 'Ответ на эту задачу уже зафиксирован.';
+        $('feedback').className = 'feedback bad';
+        return;
+      }
+      const parsed = parseAnswer($('answerInput').value);
+      const t = state.tasks[i];
+      if (parsed === null) {
+        $('feedback').textContent = 'Введите корректный ответ.';
+        $('feedback').className = 'feedback bad';
+        return;
+      }
+      state.userAnswers[i] = parsed;
+      state.submitted[i] = true;
+      state.answersCount += 1;
+      if (isCorrectAnswer(parsed, t.answer)) {
+        state.solved[i] = true;
+        state.correctCount += 1;
+        $('feedback').textContent = 'Верно';
+        $('feedback').className = 'feedback ok';
+      } else {
+        $('feedback').textContent = `Неверно. Правильный ответ: ${t.answer}`;
+        $('feedback').className = 'feedback bad';
+      }
+      updateMeta();
+      renderGrid();
+    }
+
+    function scoreForIndex(i) {
+      if (!state.solved[i]) return 0;
+      if (state.mode !== 'Олимпиадный') {
+        const diff = state.tasks[i] && state.tasks[i].diff;
+        if (diff === 'лёгкая') return 3;
+        if (diff === 'средняя') return 5;
+        return 7;
+      }
+      if (i < 5) return 3;
+      if (i < 10) return 5;
+      return 7;
+    }
+
+    function totalScore() {
+      let s = 0;
+      for (let i = 0; i < state.totalQuestions; i++) s += scoreForIndex(i);
+      return s;
+    }
+
+    function maxScoreForMode() {
+      if (state.mode === 'Олимпиадный') return 75;
+      return state.tasks.reduce((sum, _, i) => {
+        const diff = state.tasks[i] && state.tasks[i].diff;
+        if (diff === 'лёгкая') return sum + 3;
+        if (diff === 'средняя') return sum + 5;
+        return sum + 7;
+      }, 0);
+    }
+
+    function buildMotivationMessage() {
+      const maxScore = maxScoreForMode();
+      const ratio = maxScore ? totalScore() / maxScore : 0;
+      if (ratio >= 0.8) return choose(motivationPools.high);
+      if (ratio >= 0.45) return choose(motivationPools.mid);
+      return choose(motivationPools.low);
+    }
+
+    function loadHistory() {
+      try {
+        const raw = localStorage.getItem(HISTORY_KEY);
+        const arr = raw ? JSON.parse(raw) : [];
+        return Array.isArray(arr) ? arr : [];
+      } catch (_) {
+        return [];
+      }
+    }
+
+    function saveHistory(item) {
+      const arr = loadHistory();
+      arr.push(item);
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(arr));
+    }
+
+    function formatDateTime(isoString) {
+      return new Date(isoString).toLocaleString('ru-RU');
+    }
+
+    function renderHistory() {
+      const arr = loadHistory();
+      const box = $('historyBox');
+      if (!arr.length) {
+        box.textContent = 'Пока нет завершенных тестов.';
+        return;
+      }
+      const rows = arr.slice().reverse().map((x) => {
+        const mistakes = Array.isArray(x.mistakes) ? x.mistakes : [];
+        const modeLabel = x.mode || 'Основной';
+        const variantPart = x.variantNo ? ` (вариант ${x.variantNo})` : '';
+        const list = mistakes.length
+          ? mistakes.map((m) => `<li>Вопрос ${m.q}: ваш ответ ${m.userAnswer ?? '—'}, правильный ${m.correctAnswer} <button type="button" class="secondary review-open-btn" data-test="${x.testNo}" data-q="${m.q}" style="margin-left:6px;padding:4px 8px;font-size:12px;">Открыть</button></li>`).join('')
+          : '<li>Ошибок нет</li>';
+        return `<details style="margin-bottom:8px;">
+  <summary>${modeLabel}${variantPart} / Тест ${x.testNo}: ${formatDateTime(x.startAt)} -> ${formatDateTime(x.endAt)}; верно ${x.correct}, неверно ${x.wrong}, баллы ${x.score}</summary>
+  <ul style="margin:6px 0 0 18px; padding:0;">${list}</ul>
+</details>`;
+      });
+      box.innerHTML = rows.join('');
+      box.querySelectorAll('.review-open-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const testNo = Number(btn.dataset.test);
+          const q = Number(btn.dataset.q);
+          openReviewQuestion(testNo, q);
+        });
+      });
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function openReviewQuestion(testNo, qIndex1) {
+      const arr = loadHistory();
+      const test = arr.find((t) => t.testNo === testNo);
+      const box = $('reviewBox');
+      if (!test) {
+        box.textContent = 'Тест не найден в истории.';
+        return;
+      }
+      const questions = Array.isArray(test.questions) ? test.questions : [];
+      const q = questions[qIndex1 - 1];
+      const mistakes = Array.isArray(test.mistakes) ? test.mistakes : [];
+      const m = mistakes.find((x) => x.q === qIndex1);
+      if (!q) {
+        box.innerHTML = `<div>Для этого старого теста условие не сохранено (история была создана до обновления функции разбора).</div>`;
+        return;
+      }
+      const imageHtml = q.imageSvg ? `<div class="image-box" style="display:block;margin-top:8px;">${q.imageSvg}</div>` : '';
+      box.innerHTML = `
+        <div style="margin-bottom:8px;"><strong>${escapeHtml(test.mode || 'Основной')}</strong> / Тест ${testNo}, вопрос ${qIndex1}</div>
+        <div style="margin-bottom:6px;"><strong>Задача:</strong></div>
+        <div style="white-space:pre-wrap; line-height:1.4;">${escapeHtml(q.prompt)}</div>
+        ${imageHtml}
+        <div style="margin-top:8px;"><strong>Ваш ответ:</strong> ${m && m.userAnswer != null ? escapeHtml(m.userAnswer) : '—'}</div>
+        <div><strong>Правильный ответ:</strong> ${escapeHtml(q.answer)}</div>
+      `;
+    }
+
+    function exportHistory() {
+      const data = loadHistory();
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `trainer-history-${new Date().toISOString().replace(/[:.]/g, '-')}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function importHistoryFromFile(file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const parsed = JSON.parse(String(reader.result || '[]'));
+          if (!Array.isArray(parsed)) throw new Error('bad format');
+          const cleaned = parsed.filter((x) => x && typeof x.testNo === 'number' && x.startAt && x.endAt && typeof x.correct === 'number' && typeof x.wrong === 'number' && typeof x.score === 'number');
+          localStorage.setItem(HISTORY_KEY, JSON.stringify(cleaned));
+          renderHistory();
+          $('feedback').textContent = 'История успешно импортирована.';
+          $('feedback').className = 'feedback ok';
+        } catch (_) {
+          $('feedback').textContent = 'Не удалось импортировать историю (неверный формат).';
+          $('feedback').className = 'feedback bad';
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    }
+
+    function restartTimer() {
+      if (state.timerId) clearInterval(state.timerId);
+      state.timerId = setInterval(() => {
+        if (!state.started || state.finished) return;
+        state.timeLeft -= 1;
+        updateMeta();
+        if (state.timeLeft <= 0) finishExam();
+      }, 1000);
+    }
+
+    function finishExam() {
+      if (state.finished) return;
+      state.finished = true;
+      if (state.timerId) clearInterval(state.timerId);
+      const endAt = new Date();
+      const correct = state.correctCount;
+      const wrong = state.totalQuestions - correct;
+      const score = totalScore();
+      const mistakes = [];
+      for (let i = 0; i < state.totalQuestions; i++) {
+        if (!state.solved[i]) {
+          mistakes.push({
+            q: i + 1,
+            userAnswer: state.userAnswers[i],
+            correctAnswer: state.tasks[i].answer
+          });
+        }
+      }
+      const testNo = loadHistory().length + 1;
+      const questions = state.tasks.map((t) => ({
+        prompt: t.prompt,
+        answer: t.answer,
+        imageSvg: t.imageSvg || null
+      }));
+      saveHistory({
+        testNo,
+        startAt: state.startAt ? state.startAt.toISOString() : endAt.toISOString(),
+        endAt: endAt.toISOString(),
+        mode: state.mode,
+        variantNo: state.variantNo,
+        correct,
+        wrong,
+        score,
+        mistakes,
+        questions
+      });
+      $('question').textContent = 'Пробник завершен.';
+      $('hint').textContent = 'Можно начать новый тест.';
+      const motivation = buildMotivationMessage();
+      $('feedback').textContent = `Итог: верно ${correct} из ${state.totalQuestions}, неверно ${wrong}, баллы ${score}. ${motivation}`;
+      $('feedback').className = 'feedback ok';
+      $('submitBtn').disabled = true;
+      $('answerInput').disabled = true;
+      $('prevBtn').disabled = true;
+      $('nextBtn').disabled = true;
+      $('finishBtn').disabled = true;
+      $('startMainBtn').disabled = false;
+      $('startOlympBtn').disabled = false;
+      $('startIntensiveBtn').disabled = false;
+      $('launchBtn').disabled = false;
+      updateMeta();
+      renderGrid();
+      renderHistory();
+    }
+
+    async function startExam(modeKey) {
+      const activeMode = modeKey || state.pendingModeKey;
+      if (!activeMode) {
+        $('feedback').textContent = 'Сначала выберите режим.';
+        $('feedback').className = 'feedback bad';
+        return;
+      }
+      if (state.started && !state.finished) return;
+      $('submitBtn').disabled = false;
+      $('answerInput').disabled = false;
+      $('prevBtn').disabled = false;
+      $('nextBtn').disabled = false;
+      $('finishBtn').disabled = false;
+      $('startMainBtn').disabled = true;
+      $('startOlympBtn').disabled = true;
+      $('startIntensiveBtn').disabled = true;
+      $('launchBtn').disabled = true;
+      try {
+        if (activeMode === 'main') await loadMainVariants();
+        if (activeMode === 'intensive') await loadIntensiveVariants();
+        buildExam(activeMode);
+        showTask();
+        restartTimer();
+      } catch (e) {
+        $('feedback').textContent = e && e.message ? e.message : 'Не удалось запустить тест.';
+        $('feedback').className = 'feedback bad';
+        $('submitBtn').disabled = true;
+        $('answerInput').disabled = true;
+        $('prevBtn').disabled = true;
+        $('nextBtn').disabled = true;
+        $('finishBtn').disabled = true;
+        $('startMainBtn').disabled = false;
+        $('startOlympBtn').disabled = false;
+        $('startIntensiveBtn').disabled = false;
+        $('launchBtn').disabled = false;
+        state.started = false;
+      }
+    }
+
+    function selectMode(modeKey) {
+      if (state.started && !state.finished) return;
+      const labels = {
+        main: 'Основной',
+        olymp: 'Олимпиадный',
+        intensive: 'Интенсив'
+      };
+      state.pendingModeKey = modeKey;
+      state.pendingMode = labels[modeKey] || null;
+      $('feedback').textContent = '';
+      $('feedback').className = 'feedback';
+      $('launchBtn').disabled = false;
+      showTask();
+    }
+
+    $('submitBtn').addEventListener('click', submitCurrent);
+    $('startMainBtn').addEventListener('click', () => selectMode('main'));
+    $('startOlympBtn').addEventListener('click', () => selectMode('olymp'));
+    $('startIntensiveBtn').addEventListener('click', () => selectMode('intensive'));
+    $('launchBtn').addEventListener('click', () => startExam());
+    $('prevBtn').addEventListener('click', () => goTo(state.idx - 1));
+    $('nextBtn').addEventListener('click', () => goTo(state.idx + 1));
+    $('finishBtn').addEventListener('click', finishExam);
+    $('exportHistoryBtn').addEventListener('click', exportHistory);
+    $('importHistoryBtn').addEventListener('click', () => $('importHistoryFile').click());
+    $('importHistoryFile').addEventListener('change', (e) => {
+      const file = e.target.files && e.target.files[0];
+      if (file) importHistoryFromFile(file);
+      e.target.value = '';
+    });
+    $('answerInput').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') submitCurrent();
+    });
+
+    $('submitBtn').disabled = true;
+    $('answerInput').disabled = true;
+    $('prevBtn').disabled = true;
+    $('nextBtn').disabled = true;
+    $('finishBtn').disabled = true;
+    $('startMainBtn').disabled = false;
+    $('startOlympBtn').disabled = false;
+    $('startIntensiveBtn').disabled = false;
+    $('launchBtn').disabled = true;
+    state.started = false;
+    showTask();
+    renderHistory();
+  </script>
+</body>
+</html>
